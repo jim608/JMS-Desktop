@@ -8,6 +8,8 @@ JMS（Jim608 Media Server）是基於 Fladder 的 Jellyfin 用戶端。本儲存
 
 完成檢查後，安裝檔會放在 [Releases](https://github.com/jim608/JMS-Desktop/releases)，不放進一般程式碼歷史。
 
+Linux 已有本機編譯產物，但 Seerr 安全工作階段儲存尚未接通，尚不能宣稱點片本人連動及重啟還原與其他平台等同。此缺口及安裝驗證完成前，不提供完整功能版 Release。
+
 ## 平台與更新
 
 - **Windows x64**：安裝程式、Portable ZIP，以及 App 內檢查、下載及確認安裝更新。
