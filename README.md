@@ -4,6 +4,8 @@ JMS（Jim608 Media Server）是基於 [DonutWare/Fladder](https://github.com/Don
 
 ## 下載與更新
 
+目前公開測試版為 [JMS 0.11.1-jms.25+27](https://github.com/jim608/JMS-Desktop/releases/tag/v0.11.1-jms.25%2B27)，提供 Windows x64 [安裝程式](https://github.com/jim608/JMS-Desktop/releases/download/v0.11.1-jms.25%2B27/JMS-Windows-0.11.1-jms.25-x64-setup.exe)與 [Portable ZIP](https://github.com/jim608/JMS-Desktop/releases/download/v0.11.1-jms.25%2B27/JMS-Windows-0.11.1-jms.25-x64-portable.zip)。本版安裝程式及 App 均未簽章，使用前請閱讀版本說明中的驗證限制與更新注意事項。
+
 公開版本以 [Releases](https://github.com/jim608/JMS-Desktop/releases) 為準，各版提供 Windows x64 安裝程式、Portable ZIP、更新資訊、SHA256 校驗清單、完整 App 來源及原生依賴材料。實機驗證限制與未簽章狀態詳見各版本說明。
 
 自動檢查更新不會自動安裝；安裝前須由使用者確認，並核對平台、版本與 SHA256。穩定版不會接收測試版；未簽章版本可能顯示 Windows SmartScreen 提示，簽章狀態以各版本說明為準。
