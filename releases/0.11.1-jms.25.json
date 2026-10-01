@@ -101,13 +101,13 @@
       "mingw-w64-rubberband-3.3.0-1.src.tar.zst",
       "mingw-w64-shaderc-2026.3-1.src.tar.zst",
       "mingw-w64-speex-1.2.1-1.src.tar.zst",
-      "mingw-w64-spirv-cross-1~1.4.357.0-1.src.tar.zst",
+      "mingw-w64-spirv-cross-1.1.4.357.0-1.src.tar.zst",
       "mingw-w64-srt-1.5.7-1.src.tar.zst",
       "mingw-w64-svt-av1-4.2.0-1.src.tar.zst",
       "mingw-w64-uchardet-0.0.8-1.src.tar.zst",
       "mingw-w64-vapoursynth-65-8.src.tar.zst",
       "mingw-w64-vid.stab-1.1.2-1-source-materials.zip",
-      "mingw-w64-vulkan-loader-1~1.4.357.0-1.src.tar.zst",
+      "mingw-w64-vulkan-loader-1.1.4.357.0-1.src.tar.zst",
       "mingw-w64-winpthreads-14.0.0.r426.g4564ee4b5-1-source-materials.zip",
       "mingw-w64-x264-0.165.r3222.b35605a-3-source-materials.zip",
       "mingw-w64-x265-4.3-1.src.tar.zst",
@@ -1328,7 +1328,7 @@
       "sha256": "e1a419b525ee19d808c47fce97890a4cae610627c5a74e533a1c322d596f11ef"
     },
     {
-      "name": "mingw-w64-spirv-cross-1~1.4.357.0-1.src.tar.zst",
+      "name": "mingw-w64-spirv-cross-1.1.4.357.0-1.src.tar.zst",
       "size": 1992199,
       "sha256": "4082735b9f40527966fcadd19dfdcafd8313d5187abae5d53c270af448aa7c4f"
     },
@@ -1358,7 +1358,7 @@
       "sha256": "819c60fb0ad4cef3f2d230aa70bc881f57dcdca9d24fedc8431c51c7666ac130"
     },
     {
-      "name": "mingw-w64-vulkan-loader-1~1.4.357.0-1.src.tar.zst",
+      "name": "mingw-w64-vulkan-loader-1.1.4.357.0-1.src.tar.zst",
       "size": 1805036,
       "sha256": "af28ead397f61609c07a8260279441b3e3113a42cbaaf04cec86933b65c60dc4"
     },
@@ -1410,7 +1410,7 @@
     {
       "name": "native-review.json",
       "size": 45700,
-      "sha256": "e6e263c62ab61bceb84f4529c907120a86bb18f7d2147df51760845df203b00a"
+      "sha256": "1d631a008630b1497e5ee8aaccd3edde36ddf7e3824c841e34039c476f1e34e2"
     },
     {
       "name": "openssl-3.6.4-jms-derived-sources.zip",
@@ -1455,7 +1455,7 @@
     {
       "name": "SHA256SUMS.txt",
       "size": 12445,
-      "sha256": "9014e78350f80fb394f728636c3a9e5c960a381b799ba92bdd994e11a7d8d59e"
+      "sha256": "83cad5e2e496fca0a6e8b63f24928eedd3a5318e87c95983a49873d6803898bc"
     }
   ],
   "validation": {
@@ -1473,5 +1473,6 @@
     "privacyScanComplete": true,
     "privacyItemsChecked": 333263
   },
-  "releaseToolsCommit": "0ae9622eb70323f2d1482bcc559e3e5e8b97d5d2"
+  "releaseToolsCommit": "4e3b07a60f8667c4d36bf4c76b120559a8f677f6",
+  "releaseTag": "v0.11.1-jms.25+27"
 }
