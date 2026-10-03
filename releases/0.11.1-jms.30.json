@@ -1,0 +1,1598 @@
+{
+  "repository": "jim608/JMS-Desktop",
+  "sourceRepository": "jim608/JMS-Android",
+  "platform": "windows-x64",
+  "versionName": "0.11.1-jms.30",
+  "versionCode": 32,
+  "sourceCommit": "d20f9393ca9267df56b1b6f525195a1bcc798b8c",
+  "buildId": "JMS-0.11.1-jms.30-windows-d20f9393ca92",
+  "nativeReview": {
+    "platform": "windows-x64",
+    "sourceCommit": "d20f9393ca9267df56b1b6f525195a1bcc798b8c",
+    "buildId": "JMS-0.11.1-jms.30-windows-d20f9393ca92",
+    "materials": [
+      "angle-fixed-source-materials.zip",
+      "gnutls-selftest-evidence.zip",
+      "libssh-parser-sentinel-evidence.zip",
+      "mingw-w64-aom-3.15.1-1.src.tar.zst",
+      "mingw-w64-brotli-1.2.0-1.src.tar.zst",
+      "mingw-w64-bzip2-1.0.8-4.src.tar.zst",
+      "mingw-w64-cairo-1.18.6-2.src.tar.zst",
+      "mingw-w64-dav1d-1.5.4-1.src.tar.zst",
+      "mingw-w64-expat-2.8.5-1.src.tar.zst",
+      "mingw-w64-ffmpeg-9.0.2-1.src.tar.zst",
+      "mingw-w64-fftw-3.3.11-1.src.tar.zst",
+      "mingw-w64-fontconfig-2.18.3-1.src.tar.zst",
+      "mingw-w64-freetype-2.14.3-1.src.tar.zst",
+      "mingw-w64-fribidi-1.0.17-1.src.tar.zst",
+      "mingw-w64-gcc-16.2.0-4.src.tar.zst",
+      "mingw-w64-gdk-pixbuf2-2.44.7-1.src.tar.zst",
+      "mingw-w64-gettext-1.0-1.src.tar.zst",
+      "mingw-w64-ggml-0.25.3-1.src.tar.zst",
+      "mingw-w64-glib2-2.90.0-1.src.tar.zst",
+      "mingw-w64-gmp-6.3.0-2.src.tar.zst",
+      "mingw-w64-gnutls-3.8.13-3.src.tar.zst",
+      "mingw-w64-graphite2-1.3.15-1.src.tar.zst",
+      "mingw-w64-gsm-1.0.24-1.src.tar.zst",
+      "mingw-w64-harfbuzz-14.5.0-1.src.tar.zst",
+      "mingw-w64-highway-1.4.0-3.src.tar.zst",
+      "mingw-w64-jbigkit-2.1-6.src.tar.zst",
+      "mingw-w64-lame-3.100-3.src.tar.zst",
+      "mingw-w64-lcms2-2.19.1-1.src.tar.zst",
+      "mingw-w64-lerc-4.1.1-1.src.tar.zst",
+      "mingw-w64-libarchive-3.8.9-6.src.tar.zst",
+      "mingw-w64-libass-0.17.5-1.src.tar.zst",
+      "mingw-w64-libb2-0.98.1-3.src.tar.zst",
+      "mingw-w64-libbluray-1.5.0-1.src.tar.zst",
+      "mingw-w64-libcaca-0.99.beta20-8.src.tar.zst",
+      "mingw-w64-libcdio-2.4.0-1.src.tar.zst",
+      "mingw-w64-libcdio-paranoia-10.2+2.0.2-2.src.tar.zst",
+      "mingw-w64-libdatrie-0.2.14-1.src.tar.zst",
+      "mingw-w64-libdeflate-1.26-1.src.tar.zst",
+      "mingw-w64-libdovi-3.4.0-1.src.tar.zst",
+      "mingw-w64-libdvdcss-1.6.0-1.src.tar.zst",
+      "mingw-w64-libdvdnav-7.0.0-2.src.tar.zst",
+      "mingw-w64-libdvdread-7.1.1-1.src.tar.zst",
+      "mingw-w64-libffi-3.8.0-1.src.tar.zst",
+      "mingw-w64-libgme-0.6.5-2.src.tar.zst",
+      "mingw-w64-libiconv-1.19-1.src.tar.zst",
+      "mingw-w64-libidn2-2.3.8-4.src.tar.zst",
+      "mingw-w64-libjpeg-turbo-3.2.0-1.src.tar.zst",
+      "mingw-w64-libjxl-0.12.0-1.src.tar.zst",
+      "mingw-w64-liblc3-1.1.3-1.src.tar.zst",
+      "mingw-w64-libogg-1.3.6-1.src.tar.zst",
+      "mingw-w64-libopenmpt-0.8.9-1.src.tar.zst",
+      "mingw-w64-libopenmpt-modplug-0.8.9.0-4.src.tar.zst",
+      "mingw-w64-libplacebo-7.360.1-2.src.tar.zst",
+      "mingw-w64-libpng-1.6.58-1.src.tar.zst",
+      "mingw-w64-librsvg-2.63.2-1.src.tar.zst",
+      "mingw-w64-libsamplerate-0.2.2-1.src.tar.zst",
+      "mingw-w64-libsoxr-0.1.3-5-source-materials.zip",
+      "mingw-w64-libssh-0.12.2-1.src.tar.zst",
+      "mingw-w64-libtasn1-4.21.0-1.src.tar.zst",
+      "mingw-w64-libthai-0.1.30-1.src.tar.zst",
+      "mingw-w64-libtheora-1.2.0-1.src.tar.zst",
+      "mingw-w64-libtiff-4.7.2-1.src.tar.zst",
+      "mingw-w64-libunibreak-7.0-1.src.tar.zst",
+      "mingw-w64-libunistring-1.4.2-1.src.tar.zst",
+      "mingw-w64-libva-2.24.1-1.src.tar.zst",
+      "mingw-w64-libvorbis-1.3.7-3.src.tar.zst",
+      "mingw-w64-libvpl-2.17.0-1.src.tar.zst",
+      "mingw-w64-libvpx-1.17.0-1.src.tar.zst",
+      "mingw-w64-libwebp-1.6.0-1.src.tar.zst",
+      "mingw-w64-libxml2-2.15.4-1.src.tar.zst",
+      "mingw-w64-luajit-2.1.1788460057-2-source-materials.zip",
+      "mingw-w64-lz4-1.10.0-1.src.tar.zst",
+      "mingw-w64-mpg123-1.33.7-1.src.tar.zst",
+      "mingw-w64-mpv-0.41.0-8.src.tar.zst",
+      "mingw-w64-mujs-1.3.10-1.src.tar.zst",
+      "mingw-w64-nettle-4.0-1.src.tar.zst",
+      "mingw-w64-openal-1.25.2-1.src.tar.zst",
+      "mingw-w64-opencore-amr-0.1.6-1.src.tar.zst",
+      "mingw-w64-openjpeg2-2.5.4-2.src.tar.zst",
+      "mingw-w64-opus-1.6.1-1.src.tar.zst",
+      "mingw-w64-p11-kit-0.26.5-1.src.tar.zst",
+      "mingw-w64-pango-1.58.2-1.src.tar.zst",
+      "mingw-w64-pcre2-10.48-3.src.tar.zst",
+      "mingw-w64-pixman-0.46.4-3.src.tar.zst",
+      "mingw-w64-python-3.14.7-1.src.tar.zst",
+      "mingw-w64-rav1e-0.8.1-1.src.tar.zst",
+      "mingw-w64-rtmpdump-2.6-2-source-materials.zip",
+      "mingw-w64-rubberband-3.3.0-1.src.tar.zst",
+      "mingw-w64-shaderc-2026.3-1.src.tar.zst",
+      "mingw-w64-speex-1.2.1-1.src.tar.zst",
+      "mingw-w64-spirv-cross-1.1.4.357.0-1.src.tar.zst",
+      "mingw-w64-srt-1.5.7-1.src.tar.zst",
+      "mingw-w64-svt-av1-4.2.0-1.src.tar.zst",
+      "mingw-w64-uchardet-0.0.8-1.src.tar.zst",
+      "mingw-w64-vapoursynth-65-8.src.tar.zst",
+      "mingw-w64-vid.stab-1.1.2-1-source-materials.zip",
+      "mingw-w64-vulkan-loader-1.1.4.357.0-1.src.tar.zst",
+      "mingw-w64-winpthreads-14.0.0.r426.g4564ee4b5-1-source-materials.zip",
+      "mingw-w64-x264-0.165.r3222.b35605a-3-source-materials.zip",
+      "mingw-w64-x265-4.3-1.src.tar.zst",
+      "mingw-w64-xvidcore-1.3.7-5.src.tar.zst",
+      "mingw-w64-xz-5.8.4-1.src.tar.zst",
+      "mingw-w64-zimg-3.0.6-3.src.tar.zst",
+      "mingw-w64-zlib-ng-2.3.3-2.src.tar.zst",
+      "mingw-w64-zstd-1.5.7-2.src.tar.zst",
+      "mingw-w64-zvbi-0.2.45-1-source-materials.zip",
+      "openssl-legacy-test-evidence.zip",
+      "rust-static-materials.zip",
+      "whisper-fixed-source-materials.zip",
+      "windows-flutter-plugin-materials.zip",
+      "windows-sdk-d3dcompiler-10.0.26100.7705-x64.zip",
+      "openssl-3.6.4-jms-derived-sources.zip",
+      "openssl-retained-fixture-evidence.zip"
+    ],
+    "binaries": {
+      "avcodec-63.dll": "073ad5f013f15c0cc6e06ba3cd5e25dd308b9de940e9797d33e9535eb49f6dcb",
+      "avdevice-63.dll": "b9dfc4aa507a81f71b2fe65be259ff34dba0732ce9377996d10dc63e730c48de",
+      "avfilter-12.dll": "64b896b74b67e6a51e1023a5b78e6dc0cb2b9c920e2a2cba22e95943e2dc6b5e",
+      "avformat-63.dll": "d878d8b3aa12368e7810b74512e49f7f8495394d5521ef821cf4dcac36b18638",
+      "avutil-61.dll": "333840039d2b927423f3036ef506cacd875c7f7935596332de7be09f0955a090",
+      "connectivity_plus_plugin.dll": "56df72c8e9622fff95f1491b7443418aad6fadf286996ed3b94a37d9ab6f9267",
+      "d3dcompiler_47.dll": "a05f99734f7c4822fefc12b367af21fd0976ed6608752fb1e1e80b6ece7ecbbb",
+      "desktop_drop_plugin.dll": "584603a0d2939b40fd4f4f36916ec2bd42d1f4f7c33c633dd4c9f8afb90c0e43",
+      "desktop_multi_window_plugin.dll": "017b93f8f8b975c820e31f05fac2750d6ae22b3a9dda009c59c6762a5ce30030",
+      "dynamic_color_plugin.dll": "126c3e08ba3b8eb7684d3c348d1a5ba006229c3334426271579be4e4a8d0a418",
+      "flutter_local_notifications_windows.dll": "0bb4ea24e1ee38b41ba5c5eafb87ced831075ef81cf08ccec4bfa8cc16acdcff",
+      "flutter_windows.dll": "f305282174da15723cee0913d805db06accb0b0de513fbd313affc9b173353ca",
+      "ggml-0.dll": "6f5f4a2842cc680ebcc96bdefc7b1e9f82249074039e80de427a04db52717580",
+      "ggml-base-0.dll": "a831400c16dd40be5568272bd9d28fbed6dfa20784b3017c37ef349bca1fd5f9",
+      "libaom.dll": "13e651628932728e53ed927d49fba57fa9168ec9df7f87f56c89db602bf5f37f",
+      "libarchive-13.dll": "df763a709f919f866ba3a1fcfec5c1ed63c9b7bac251247103086bb7a183a979",
+      "libass-9.dll": "cb2b46133b3bd9630384148bd7229e987af9703208d4329fc2215f4170b8dc6b",
+      "libb2-1.dll": "01bbf64090367d511f41d9fc8f34c557f61d4a227b7c9e47ce04052cbfdc3e7d",
+      "libbluray-4.dll": "24870a1b32ff8b36cfa94479d802dfabc55a12e7bbde8584606f7e2d44d3c6dd",
+      "libbrotlicommon.dll": "c62c08223e450dfc2fff33c752cc228505ffd9d755201958ba800d5d30481a2c",
+      "libbrotlidec.dll": "e270b6e576594ee8ee6e33ccc54e34a54304616dd6225652e11e49d6f17ef896",
+      "libbrotlienc.dll": "82573820fe9cc3f57004b6603428e2fa1bfc9d2048707bfcead3cfc5ef3ab284",
+      "libbz2-1.dll": "1790bf6473c9d48db14c1f0ee8124142327556d281299ea2a72ee361118ee01a",
+      "libcaca-0.dll": "4ab7b69e156b77a76776237ad37054dc9558f18dc2cd4a9c2a4287a8811002b2",
+      "libcairo-2.dll": "be391428fd305983f888becae10ebab9d8009637e7805383e822740043e95849",
+      "libcairo-gobject-2.dll": "060e586a23bc07d81cf9c9c2a3927dc2d61168fcc89b13601e98afdffffbfeb6",
+      "libcdio-21.dll": "3c420104ef8cc9c914712d0c137cc1b34697aacf747952ca4bbd74be0dd81736",
+      "libcdio_cdda-2.dll": "acddc934acf082350de46298c22cff44509de02c4e446cae2a2b64347a6d63dd",
+      "libcdio_paranoia-2.dll": "5240faf7da48bad81b7c15d09b62641a2516edd677871d76807ef1b230ff4fba",
+      "libcrypto-3-x64.dll": "7d25614b72d98b1a280d50de253f395f4062058af8e22d2dc1ec44fb648f0028",
+      "libdatrie-1.dll": "40aee3ae9a62a77454dfe8419fe21b54c54d969e0471c9e817b65d4502a9949f",
+      "libdav1d-7.dll": "bbe67862f77c22f6f509684207b5363542e5b52c1a1faa354e12a11d072ad766",
+      "libdeflate.dll": "61a60665da9fd15a0e8668c47424f325e1d74479c3f896fa7ae48ffcee4ca300",
+      "libdovi.dll": "75988509f0d2166e2060ed548913bd7b34556bc16b3f9a02469de1dd2347a7fb",
+      "libdvdcss-2.dll": "a691f36e9f4dd1dac01e841cada8d4f5500c3f8ad3171a129424a2194151b8e8",
+      "libdvdnav-4.dll": "37cf3d8555ec2f00f50a6bef46b952bd0576c2db41d4debd6133a6c6bdeca02e",
+      "libdvdread-8.dll": "658acc812360cf6c24d684ad250b2d0021d4c74a2e1229b477d66843906c351b",
+      "libEGL.dll": "625af4e343a115422c906ecee1cc1c7cb9d9f1a5b3827620f80f30e6577f8a4a",
+      "libexpat-1.dll": "228d7458da0d55a060a982ae809503f2ea9bdfc6f88b9fa756abb98ffe04afa8",
+      "libffi-8.dll": "f96cf79b75f33a10023d001673b564538023395c94b3c58e1db53114976a7c25",
+      "libfftw3-3.dll": "58f55fd8a31f887d6727c6ec9adf054cbf2300215cc9312ba31d3c3181a0d27b",
+      "libfontconfig-1.dll": "be30a200fa4000d0a7a1d3911391969627440148f01d0028a319bcb9fa112202",
+      "libfreetype-6.dll": "a3271784f8366b3c6412e0c35474884fa12899c392bacb08bc8eac00f4be7e64",
+      "libfribidi-0.dll": "14bd0ed4c24d0068434bc23cd4f39e8dc0edcf56f2c9996b6fe39b39ffc54673",
+      "libgcc_s_seh-1.dll": "68ca4574b331402879dec403ba4f14491c9b8fc4aa3f4a41432008714b9bc5df",
+      "libgdk_pixbuf-2.0-0.dll": "ed9ab5fce358af212fbde9dac122b6f4b68ca45449a38444da61b0c3a11e328f",
+      "libgio-2.0-0.dll": "6457697b77638c9cc20baa3c19228dcecc15aeea886e72815b2079cdb0b8d941",
+      "libGLESv2.dll": "710e246f405a6f63005c0d91f385a1b7e62fb1cfc566fd0fbde01b7319a0d6a4",
+      "libglib-2.0-0.dll": "642d4da7a378374a84b1edc30100b9e9c7b798e53347853aadd1c86691a81468",
+      "libgme.dll": "98e306bc1443f4f5a0744baf0477d2f856594bb3f8036440ad7cb1f30a1f5a72",
+      "libgmodule-2.0-0.dll": "4a3e1bf8b17425c58be37d0a2bda2340364e19d18320f414a6537a3069867ad4",
+      "libgmp-10.dll": "c2567ccf3f410c3411ba7cd4b7ba14f393a0e70a1d0c0593297df6706b5fba96",
+      "libgnutls-30.dll": "f7f05c96572506c81f2ffa89b518234afa4af2603aad8903db257a4f1e97e9e6",
+      "libgobject-2.0-0.dll": "516bef266569d691924097224502e45ea04f6cd423bdfa23251f609007b9fb0e",
+      "libgomp-1.dll": "37d23888447afabf47b0d5c6a1ea79852c3d522315040230c4ed3e1705e90b61",
+      "libgraphite2.dll": "93953e4744bcfce9a7bc439b956544bc213095cb1349c3602a58370f32b25c18",
+      "libgsm.dll": "b3446b547f8894bcabf0aa98a78146c60b1cf6dba7ab55e6a726fb3739276bf4",
+      "libharfbuzz-0.dll": "255b36d87925a4fb59f4c906ca116cb48ac336c3cefcea8612c179dd56169eab",
+      "libhogweed-7.dll": "b48e33181b78d715ba310581f4c72376c959854638bf635e1703e5fc1b783498",
+      "libhwy.dll": "9ba0ac7bad82c4c88e9bb8d6ca8c6a83877adc1f71cc48590c65b8d26108a41c",
+      "libiconv-2.dll": "94ec68fb8d342b6c91b6b48a8d95092819cdcd006a7166e0b68062f946afd08a",
+      "libidn2-0.dll": "a054a6bb69aaf4666157f968740412e9697085cbc1e48a78f8dd9622169c5aaf",
+      "libintl-8.dll": "0e5a178731e6be6d115442a6ade3df7f03265cd1fc4338f8b6f86a8001cbf582",
+      "libjbig-0.dll": "36b6155be36d24a19154a48177a09978ff6c26f48665d8c7bb5057aaace6b91c",
+      "libjpeg-8.dll": "c63acd5a3231725aa96aa35444b74cd8d607a6fbdab1dd18b0e0ada7e39476d4",
+      "libjxl.dll": "53bd8cfdf5138cb8f9d96d6459c480b9256d17036f840e59ff2ac2ac03f37685",
+      "libjxl_cms.dll": "cab882e05bda645fc5b87f2093960a8d6608d40917204b30b173ab132d13c73a",
+      "libjxl_threads.dll": "a5891f300a1733fe361ce708bee8841eee21b2bd3b7fc1f43510174c54e8bc6a",
+      "liblc3-1.dll": "970f6d805e215cc17df962c64e21449af3da97e09cb4a14a5f943bbd0e9c0329",
+      "liblcms2-2.dll": "03314471fadd04cdd63c108472ff85d058903d236a0356c14eda363f0e1ccb65",
+      "liblerc.dll": "1ffee78579c25b073267bcac8d0a6045d9bd446e010c7953b569b2629ca8a58a",
+      "liblz4.dll": "5e83fd34144fa033c12e22718317ec2123f8a3460903932b0bfddb8aad379cfd",
+      "liblzma-5.dll": "d97a260b8bb4f6affc34ec47249429240068b94bb6f7dc30c4d64daaafb3ac69",
+      "libmodplug-1.dll": "2c30fd83660c15388c7f2f23be13e062a58ff313f433b91ad220c6da976b704d",
+      "libmp3lame-0.dll": "7ae709bf841478222fc468d6aa08cdb47a683feb40ff13fe9fb36359333d4559",
+      "libmpg123-0.dll": "bd63359e95781ce1a9f4e1d0d7c98be32583731e34d09df0c6a020d215048ff5",
+      "libmpv-2.dll": "d5e3557e2875d868e1f8cc803912889fc2e9c49d12d7f6595e414acd32359394",
+      "libmujs.dll": "31fdb96bc29a2834aa6c1acc0c3874e4015ce2ad1bdbbeaeece94422064a2121",
+      "libnettle-9.dll": "9b9f8bffca94d3cca7d1afb77d9deb0fa34427eaa05f1832037f46bc9e3dc134",
+      "libogg-0.dll": "2f102fba6f2a49516be85cb2643f6a9ba394dc5657aedb3ea235b6603c12d3d2",
+      "libopenal-1.dll": "cb33f3a9505f38b4a82510bf303547e5e66c525eff591085c752e3d81dfc51cb",
+      "libopencore-amrnb-0.dll": "9d36d5661fd002f8889d90e0a53f2c5d693c641c075ef55c26ade85d958d1369",
+      "libopencore-amrwb-0.dll": "54341e49eab692d77e0ff8534a40a3cce6d0d58b9cd157ed69c817c4b852bbdb",
+      "libopenjp2-7.dll": "94f9507828d391cf96d700d34918114f1c1e03f91dd1243a19275e0435690925",
+      "libopenmpt-0.dll": "1b48f0318fb903251c3c33c3dbd55ff27a2f3ccdcc292765818092d33bffbfe4",
+      "libopus-0.dll": "c12f9a671a106c649a5517d28061670aa57c805d242b80764853a7551099498d",
+      "libp11-kit-0.dll": "c24fcbd4d67f6f837a1cc29bd37a2980670febfa64b1a424720e5768ff91cfa8",
+      "libpango-1.0-0.dll": "fd92503a3fcab12fcf555cf8a47610f23b203cf888b48b5628629987d68215b8",
+      "libpangocairo-1.0-0.dll": "0af768e57c0aaf8f1dbafdff21b95a21d9cff7ae5be2e3e5ffa366c9dbf4f5c8",
+      "libpangoft2-1.0-0.dll": "27620f9c842109690616393b3616c29d5dfda8f8a0a980c0a5e869d4f75be925",
+      "libpangowin32-1.0-0.dll": "152832e8add3031293fca8152ac8450db9122ee5b20561160e025a078954162d",
+      "libpcre2-8-0.dll": "752f04bb7a60d2a049788ffaec14b45602c4dec4c29534001dfcf434d26da19c",
+      "libpixman-1-0.dll": "12e693d94829f013e0bd7c042b30998b20e91ece7b6f4d5f075ddbb58b373c92",
+      "libplacebo-360.dll": "8eb2c3fe24a124d9dbf0383d60ac7dde6c0dd5607b2451cad0d924271e46d5b8",
+      "libpng16-16.dll": "5c1dd5410af563f4a3c4aee10d1f749aa71e0d7fb3b4fac240eb9e96cadebd26",
+      "libpython3.14.dll": "00a50139a84f88073b43bb49fceaa2de4ce63263e38c86926ec3225a9d8e2915",
+      "librav1e.dll": "bc549e2178589f371469d1bd23544859ff118e48218eae2bfca7126654988779",
+      "librsvg-2-2.dll": "278bfe70d237c5e49fdde37e2b6e7fba1edf641c054798ec10dc79ccb97fab61",
+      "librtmp-1.dll": "f9fecc5ce88e647cdc5960f125a91d9ed2e66f1ff812ee4160da69b0d416e5e2",
+      "librubberband-2.dll": "03f341ddb7515f2cc2f7ee8bcb3353e27102e993636f3f70a7c36725c1bf9704",
+      "libsamplerate-0.dll": "4f7f9b2ecea84bb8f5b27c8f36e85e8a100663c745ac25e82a512f485b663ac7",
+      "libshaderc_shared.dll": "31a24d149f9c3f716eda4277abf6fff8023e2fe1c0f8dfa3ce9f83231fbe4bbe",
+      "libsharpyuv-0.dll": "d29380c7056383f3e7a80bf9e150f0b8c425c1cf2568d1336e88979ddc2307af",
+      "libsoxr.dll": "ac03eccb5567b2fabf6d58a7fb249316e688bdaa718763964d437b8fc887ee4e",
+      "libspeex-1.dll": "70517dd82e962c0956f0e8d3bb700cd7ecc62b8c08741b35d71f2e95d601621d",
+      "libspirv-cross-c-shared.dll": "9c833af0fe70795d3635739fc3c279d1969b6c00dccd51161f48cea055db1bcc",
+      "libsrt.dll": "6ad77ab5b1a9dc3d2d0bb929bfe9c6a46eb119c5f81d32014176ab873abeebdc",
+      "libssh.dll": "dbaf4b60ccbcef6aa5d6385d8d1965d4f483999b9ced1d5a2afbf719028b3d1e",
+      "libstdc++-6.dll": "b30dbd914d903992acb28b38455947153886656beafbd91c465c31aa258f9c45",
+      "libsvtav1enc-4.dll": "34f015c70ac283ba90bf5bbe0fec6e6af0fcbd50762566826405c8ccfade6e75",
+      "libtasn1-6.dll": "9793128fa5028fe8d8b49407a6ed900a2315444f9f7444a146f0b62f08c1c5bb",
+      "libthai-0.dll": "d8d8b87e9089a811e088f6a01da57c19ed54d2b6613bb85697f1958473f63666",
+      "libtheoradec-2.dll": "0b9877e581421abe4090abacf2cd8c04df6de00520d7a34b9f41b46a11a02a80",
+      "libtheoraenc-2.dll": "ed0fb82d04220070d2f53832a9cb653546ddce2c704a53bfacae7597666db4d7",
+      "libtiff-6.dll": "ce0eb686a9b03a8586d7d1f833fadcbe67ad2f6ff8538c3f431d4edb072f935d",
+      "libuchardet.dll": "7ca451a0797dcc6ba926ad03dbe5e006919ee18ce0f4131d2d918bda5c05b0be",
+      "libunibreak-7.dll": "f1f4bb5b5bb3dbf8d142df3012f13e4b5b0246565496d43718a6f33321e96283",
+      "libunistring-5.dll": "ee39258fa1086269674a8179d3cfaf7c4e380ada14441b5dd9ed53d82d15c4e3",
+      "libva.dll": "20591e45edfcbf7f4b5735f9096b19be9796b0f61d1ab041f39d2732357593ae",
+      "libvapoursynth-script-0.dll": "0c7a3686ae79719175ff8af8d726250b348875617b56d176804b53e9ad6e36cf",
+      "libva_win32.dll": "2721e9c28099699b6d723d3d56671ca46db21a5bdb9e2c41df516da17d6539b7",
+      "libvidstab.dll": "6980084b957f32cf13248d8b0160a698d75e1148f6b35af85f57f559242fb623",
+      "libvk_swiftshader.dll": "aaeb725dbb5aeeccc1a648e8155327702f0a279cbdb20cd845ee13835c737607",
+      "libvorbis-0.dll": "d1b40d7f33171ccb8cd2a238bea36c01176c54de5bf22afae332fb33f26a008f",
+      "libvorbisenc-2.dll": "971cfa7c8866653aae9760a317dc3838e821f3911d9c6a8a8ef90f4a13de798f",
+      "libvorbisfile-3.dll": "00691eca4ae9e6a4d56b05a043082df7934b710bc66f3d72c33170f783df503f",
+      "libvpl-2.dll": "88bd6fece68ebad05d3e78581455bb902cc1d3930018931d0830616097e74d73",
+      "libvpx-1.dll": "759bb95b0cd6c75bfce910f003b26a2d95ed3c94ef1a20dcfd4c89a0569f2016",
+      "libwebp-7.dll": "8dfe40c4e0abc90ddf18f080898987e01253d099b2b2d6daf7db521e55c00446",
+      "libwebpmux-3.dll": "9bd85116a22923d648d6b0ad09f21d08df7bd3d8860b24a5b4a6d4ac788b7340",
+      "libwhisper-1.dll": "d0e7392ad2ac759c1aa703f65773b4729d54e42e65a9137ab39ed9e1735c7498",
+      "libwinpthread-1.dll": "76cc52adfcdb8c800813b2ae8da42a908934eb1ee54ce8e9744fc8d703c76ee1",
+      "libx264-165.dll": "a58995b5af6d0fcf5d17f354bfa54bb05d99056ed167eec9c8e86a3a63478ec1",
+      "libx265-217.dll": "48a6c942cab3196d740d7af3cfc8359dc7bd833c87c1ca24b8d231b70daa9e18",
+      "libxml2-16.dll": "5cf84e4be1d9da56a6269b1bd18c8ab5fcce11087aa24002dfce57e46238455b",
+      "libzimg-2.dll": "99625f39de8de654a90077362aafaa4e565c97908b39c0e9614562f9dfb57200",
+      "libzstd.dll": "48368ab0ca622d0ec12f41ce85d91f22866bf5da92c77a69a06483564c93816c",
+      "libzvbi-0.dll": "e8193ad6853c223f30cda1fa5a6d5e956b809f5fc09197954b49e20f65824fe1",
+      "local_auth_windows_plugin.dll": "15440eec7fcbc5a0680d5ad7b303c264fec1d45cb8fb3d95a4996f3915732a09",
+      "lua51.dll": "561561a3870953552989b75f17807bfb9bc4c073a1fb1155ae6c0849e6fad500",
+      "media_kit_libs_windows_video_plugin.dll": "d826ae5b4cf7422a51ec7a1a8c5cee9e50c97c00500fa0d3c7b50005ded358e7",
+      "media_kit_video_plugin.dll": "8790c5de80c0578b3a0e5e22f4bab8799e04b4703a03fc63efd1005f3e0184b2",
+      "permission_handler_windows_plugin.dll": "a75688f88683aaba20c4c06d23be2bf9997812b1d4c530daf0a2ee1c39b67452",
+      "screen_brightness_windows_plugin.dll": "9a73204174b2e545df5e171315acd18956ddc28e4c7fe09b51b6677ccdd96af7",
+      "screen_retriever_windows_plugin.dll": "45dac133c371ed8c2c67348c174aa49c8c018c3819bd0092581aa98887c546aa",
+      "share_plus_plugin.dll": "48bc8dbd65c7b65e369f13501e05265cf6a740c0a2182d4745b15ddb38523fc5",
+      "smtc_windows.dll": "b2d09626b2b2c91b031d56a72af8df9888dfb4117f8c0e980049ee3c50914ef8",
+      "sqlite3.dll": "297fc26147e857c637aa8d664cb11d5e57207255ae4b1f96b4ea48283faad130",
+      "sqlite3_flutter_libs_plugin.dll": "43210173000c1e91cea2cfe70821b6ffbf18e99687ddaf286dde28d914f3cb73",
+      "swresample-7.dll": "293a1a9786b8e037e29b88677f2eac8785cffec48ef9509ad451f59015b766fd",
+      "swscale-10.dll": "fb120b345443d59df93203f900aadac9f077c32a55b11401196c521fe2be1594",
+      "url_launcher_windows_plugin.dll": "e07663fad6ebc773e17e6fccb2c5bc3f954d90106df942da5c7eab685d72e44b",
+      "vk_swiftshader.dll": "aaeb725dbb5aeeccc1a648e8155327702f0a279cbdb20cd845ee13835c737607",
+      "volume_controller_plugin.dll": "2dcb0929f139fedbeee9e99d0753b599cb14ab77569c7a0cbe26b32d85152351",
+      "vulkan-1.dll": "2286e6152a76b1f3283b3d274b7602b739cfeb41a8af670754b7688a198fca46",
+      "window_manager_plugin.dll": "246e48cb2badf982f4e4ee71a397ca1c6c16da741633f1217606000799878b82",
+      "xvidcore.dll": "5107ab029f4f06a5a360ac769c20a150d4bd1a1922575517b9054768ff219611",
+      "zlib.dll": "aa830bc48588d8bf15da816887d75eee707ba0d03f2dd78a65550b00623af7fc",
+      "zlib1.dll": "aa830bc48588d8bf15da816887d75eee707ba0d03f2dd78a65550b00623af7fc"
+    },
+    "missing": [],
+    "nativeManifestSha256": "c6f14993add1fe241d9bcc3b23ec31277762215b7241707306c2a8ff9c3f9dc7",
+    "originalBinaryPackages": 109,
+    "originalSourceArchives": 108,
+    "nativeLibraries": 140,
+    "licenseNotices": 222,
+    "sourceDerivation": {
+      "archiveSha256": "7e292724ce2a651bc3854b7c49c8c88081d129e99b52941a7e8241f234a3189f",
+      "manifestSha256": "21321fe19c5807ac4878fcc6ce4fce35cba49578503f8cef57da26288cd164a5",
+      "origin": {
+        "archive": "mingw-w64-openssl-3.6.4-1.src.tar.zst",
+        "sha256": "b60a8978d0e45f433ee8db7825d9ba90cc38956c89ab52055c05546f421942f9",
+        "url": "https://repo.msys2.org/mingw/sources/mingw-w64-openssl-3.6.4-1.src.tar.zst"
+      },
+      "sourceMember": "mingw-w64-openssl/openssl-3.6.4.tar.gz",
+      "removed": [
+        {
+          "member": "openssl-3.6.4/apps/privkey.pem",
+          "sha256": "64795d8b4aac68c76ba833da4cfb54e739b7a90161ab3866d441ae0205da6fa9",
+          "reason": "Legacy key data outside the fixed shared DLL compile, install and runtime graph; credential safety not approved.",
+          "evidence": [
+            {
+              "member": "openssl-3.6.4/CHANGES.md",
+              "sha256": "4260fc83da75b4987b5ff829a71b81d75e94cd3628fa4e9c52ab24e1e15a4449"
+            },
+            {
+              "member": "openssl-3.6.4/Configurations/00-base-templates.conf",
+              "sha256": "29362786b6daeeea7c137283158e2c0454c2495b3a329d88b2f2adfc98f17a7b"
+            },
+            {
+              "member": "openssl-3.6.4/Configurations/10-main.conf",
+              "sha256": "f29bb8de5bfbace12cbf9f4fbf952fccc7a34e105d50105d35e99754df53f2df"
+            },
+            {
+              "member": "openssl-3.6.4/Configurations/15-android.conf",
+              "sha256": "c6bc311480b0886aeeb47143d3726d66cc2984cf1aefbbe9e878039a282c0901"
+            },
+            {
+              "member": "openssl-3.6.4/Configurations/unix-Makefile.tmpl",
+              "sha256": "cc02bca6ac2c5a32c89661d391bc1c610116fa2c98f7a202a41056c05a25f8b8"
+            },
+            {
+              "member": "openssl-3.6.4/Configurations/windows-makefile.tmpl",
+              "sha256": "e1a8d9a44afb425c84a02e98d68527bcbdf098efbcd614445b596b210ba829d2"
+            },
+            {
+              "member": "openssl-3.6.4/Configure",
+              "sha256": "622e9c7013848b2b14adf5e5d20cadd5cc1555928bfcb9b9715c0099ae578e36"
+            },
+            {
+              "member": "openssl-3.6.4/apps/build.info",
+              "sha256": "9ff591669eaefd8db77242f899ae4ac8f6fe4dea5446b5cb1f417cbf68f6f09f"
+            },
+            {
+              "member": "openssl-3.6.4/apps/lib/win32_init.c",
+              "sha256": "a328c3473981b70116eb60fe07d92fc67ec9cb91c54903505940acc72338bde8"
+            },
+            {
+              "member": "openssl-3.6.4/build.info",
+              "sha256": "f37b88ff8ef303ecd462e7d96e6ffb1533dd37074716fb8ff6331eb2dd80de11"
+            },
+            {
+              "member": "openssl-3.6.4/crypto/LPdir_unix.c",
+              "sha256": "5b08afaef95f9fae98635c98d767c3180fb237aa70da612df8fe76dae127d895"
+            },
+            {
+              "member": "openssl-3.6.4/crypto/build.info",
+              "sha256": "09c92ed9a227774640b9dcdf456443337e521c764369be3f5263bf36778760fb"
+            },
+            {
+              "member": "openssl-3.6.4/demos/http3/gen_nghttp3.pl",
+              "sha256": "9f4e32a8807da8dad748dd126864e560195b6e6f18971b59386f4deaa934021d"
+            },
+            {
+              "member": "openssl-3.6.4/doc/build.info.in",
+              "sha256": "c509a2d213f77c3c588e9b3d0898081463171608ef399e6533681fd68575a726"
+            },
+            {
+              "member": "openssl-3.6.4/external/perl/Text-Template-1.56/Changes",
+              "sha256": "72069c3d66671f504bcc6f6b6ebd98d10459e41dd9a89be8fbdd02287ee2d15b"
+            },
+            {
+              "member": "openssl-3.6.4/external/perl/Text-Template-1.56/lib/Text/Template.pm",
+              "sha256": "41815a23764f0ec4cb610718c0b2b012d9f0c91db75a6784d409b30a7c1a4b98"
+            },
+            {
+              "member": "openssl-3.6.4/external/perl/Text-Template-1.56/t/basic.t",
+              "sha256": "c302204f5c09b2e9f798697467ae8b9818fc7028b959cbe07b5af23e78ebdaed"
+            },
+            {
+              "member": "openssl-3.6.4/ssl/build.info",
+              "sha256": "b53c2118e1f7a882e071ab90c400ad745dfd7a219102da04f993aacb5eeb071f"
+            },
+            {
+              "member": "openssl-3.6.4/test/README.ssltest.md",
+              "sha256": "b00080516aa367dd1de123170fe4c96eaa270f54cbf9c51e5fabad76ce3f8b1e"
+            },
+            {
+              "member": "openssl-3.6.4/test/build.info",
+              "sha256": "47326ba664c3c78acfd01a757c9e977ca6728ea24850f7cabdb8f83a8ee17811"
+            },
+            {
+              "member": "openssl-3.6.4/test/certs/setup.sh",
+              "sha256": "4a8fe41edd76e97a09d4d752251ec2ee5f6b4881daa3796cd37ca49818031b5b"
+            },
+            {
+              "member": "openssl-3.6.4/test/recipes/04-test_pem_reading_data/NOTES.txt",
+              "sha256": "6ef166ef626ab83baae418760004b30f3931b8d9a1d0f3894d11bc4f5c13fd2f"
+            },
+            {
+              "member": "openssl-3.6.4/test/recipes/15-test_dsaparam.t",
+              "sha256": "c0cbec94a5bf0d307fc22e0d36cb85e6e0b6bddf327c39a14e277197d9fe1e66"
+            },
+            {
+              "member": "openssl-3.6.4/test/recipes/15-test_ecparam.t",
+              "sha256": "2b93a768a3cee6bf470b8a4099cf1013a30521117b82b18001a979b037248d09"
+            },
+            {
+              "member": "openssl-3.6.4/test/recipes/20-test_dhparam_check.t",
+              "sha256": "b73158aac055053f3a654ed0ab67ae63c067a3d398777db3aa6cef2e4d5cc385"
+            },
+            {
+              "member": "openssl-3.6.4/test/recipes/25-test_verify.t",
+              "sha256": "5ba87fccf8a3f9b0d65fdb442744829d9873eebe3d3ca51aa74a8da80515ecc6"
+            },
+            {
+              "member": "openssl-3.6.4/test/recipes/40-test_rehash.t",
+              "sha256": "4a881497e396a44925b8113620735994b2988646859fd2e93bdd06608ce8244a"
+            },
+            {
+              "member": "openssl-3.6.4/test/recipes/70-test_quic_multistream_data/verify-qlog.py",
+              "sha256": "84a1b72749ee40db72adcd0356af3151b1ebee11fffd4ddf3c6726222d64c034"
+            },
+            {
+              "member": "openssl-3.6.4/test/recipes/80-test_ssl_new.t",
+              "sha256": "89e2abaa16e32c1ec714982b24692481622c4e037623152708fa611081253f46"
+            },
+            {
+              "member": "openssl-3.6.4/test/run_tests.pl",
+              "sha256": "a8e9f54f435780419be643e5b9ac3c1c0f2eac1a26375120d2a87cd27cc41660"
+            },
+            {
+              "member": "openssl-3.6.4/tools/c_rehash.in",
+              "sha256": "0c512346aa0a359902736124a7ee143a59e3005d0e1480831c8b2d78ff2ea349"
+            },
+            {
+              "member": "openssl-3.6.4/util/ck_errf.pl",
+              "sha256": "2fdd62a995295642058b65c6ce1583e7f029db40bc5d86add682fa93c7a75e44"
+            },
+            {
+              "member": "openssl-3.6.4/util/copy.pl",
+              "sha256": "50a328ae75bf158cc2dbd9c0ee2526230f8ae76a4debb168d28cd497a013319c"
+            },
+            {
+              "member": "openssl-3.6.4/util/find-doc-nits",
+              "sha256": "db4aed2b7ede0d32ee406549dac57dfb511944e74ec1c53f0714bc2608e52b7d"
+            },
+            {
+              "member": "openssl-3.6.4/util/fix-includes",
+              "sha256": "9d3aa292f3ca7af1917e481f0a086b77655c5fded8bad2101dab68e03681f178"
+            },
+            {
+              "member": "openssl-3.6.4/util/mkerr.pl",
+              "sha256": "e9cc0cc32e3b5304ae7fd546b1f3aaa77b0c7836bf42ba9d44b02e11bfe67b82"
+            },
+            {
+              "member": "openssl-3.6.4/util/perl/OpenSSL/Glob.pm",
+              "sha256": "4100606067f0b577d3e6d2d2aaca93d826fb66105639eb94ff76c70ae8c526c9"
+            },
+            {
+              "member": "openssl-3.6.4/util/perl/OpenSSL/Test.pm",
+              "sha256": "f22bfb7feb6ec4301c5358c782674de042111c046272fdb80a421cc89981cc64"
+            },
+            {
+              "member": "openssl-3.6.4/util/perl/OpenSSL/fallback.pm",
+              "sha256": "9c457d583bd46e3d18c87a4a29a2fde7db1a16d007b1769429a53b865d22380a"
+            },
+            {
+              "member": "openssl-3.6.4/util/platform_symbols/unix-symbols.txt",
+              "sha256": "e15781e0ab9051a5f279bdaaf016076c8b22a4e0a31718129a28a9e2307cbaeb"
+            },
+            {
+              "member": "openssl-3.6.4/util/withlibctx.pl",
+              "sha256": "5dacb877ca32933e58642efe8fb850995cf06804f1c3e74d8b8cb287d2760e0f"
+            },
+            {
+              "member": "openssl-3.6.4/apps/req.c",
+              "sha256": "9a74c39a83fb5ece2483a0e7f5411f5e0322b3b0f9c9262f3b60f451f9afba80"
+            },
+            {
+              "member": "openssl-3.6.4/doc/man1/openssl-req.pod.in",
+              "sha256": "4c61efab8d779c3d552bd211d802b93086d3ef93114febe7eb0361fd0fa8aafd"
+            }
+          ]
+        },
+        {
+          "member": "openssl-3.6.4/apps/rsa8192.pem",
+          "sha256": "24f69b9f93919a7cc85159762f269b3b3a7e807dec24ebf90ccf166e1d63fe6b",
+          "reason": "Legacy key data outside the fixed shared DLL compile, install and runtime graph; credential safety not approved.",
+          "evidence": [
+            {
+              "member": "openssl-3.6.4/CHANGES.md",
+              "sha256": "4260fc83da75b4987b5ff829a71b81d75e94cd3628fa4e9c52ab24e1e15a4449"
+            },
+            {
+              "member": "openssl-3.6.4/Configurations/00-base-templates.conf",
+              "sha256": "29362786b6daeeea7c137283158e2c0454c2495b3a329d88b2f2adfc98f17a7b"
+            },
+            {
+              "member": "openssl-3.6.4/Configurations/10-main.conf",
+              "sha256": "f29bb8de5bfbace12cbf9f4fbf952fccc7a34e105d50105d35e99754df53f2df"
+            },
+            {
+              "member": "openssl-3.6.4/Configurations/15-android.conf",
+              "sha256": "c6bc311480b0886aeeb47143d3726d66cc2984cf1aefbbe9e878039a282c0901"
+            },
+            {
+              "member": "openssl-3.6.4/Configurations/unix-Makefile.tmpl",
+              "sha256": "cc02bca6ac2c5a32c89661d391bc1c610116fa2c98f7a202a41056c05a25f8b8"
+            },
+            {
+              "member": "openssl-3.6.4/Configurations/windows-makefile.tmpl",
+              "sha256": "e1a8d9a44afb425c84a02e98d68527bcbdf098efbcd614445b596b210ba829d2"
+            },
+            {
+              "member": "openssl-3.6.4/Configure",
+              "sha256": "622e9c7013848b2b14adf5e5d20cadd5cc1555928bfcb9b9715c0099ae578e36"
+            },
+            {
+              "member": "openssl-3.6.4/apps/build.info",
+              "sha256": "9ff591669eaefd8db77242f899ae4ac8f6fe4dea5446b5cb1f417cbf68f6f09f"
+            },
+            {
+              "member": "openssl-3.6.4/apps/lib/win32_init.c",
+              "sha256": "a328c3473981b70116eb60fe07d92fc67ec9cb91c54903505940acc72338bde8"
+            },
+            {
+              "member": "openssl-3.6.4/build.info",
+              "sha256": "f37b88ff8ef303ecd462e7d96e6ffb1533dd37074716fb8ff6331eb2dd80de11"
+            },
+            {
+              "member": "openssl-3.6.4/crypto/LPdir_unix.c",
+              "sha256": "5b08afaef95f9fae98635c98d767c3180fb237aa70da612df8fe76dae127d895"
+            },
+            {
+              "member": "openssl-3.6.4/crypto/build.info",
+              "sha256": "09c92ed9a227774640b9dcdf456443337e521c764369be3f5263bf36778760fb"
+            },
+            {
+              "member": "openssl-3.6.4/demos/http3/gen_nghttp3.pl",
+              "sha256": "9f4e32a8807da8dad748dd126864e560195b6e6f18971b59386f4deaa934021d"
+            },
+            {
+              "member": "openssl-3.6.4/doc/build.info.in",
+              "sha256": "c509a2d213f77c3c588e9b3d0898081463171608ef399e6533681fd68575a726"
+            },
+            {
+              "member": "openssl-3.6.4/external/perl/Text-Template-1.56/Changes",
+              "sha256": "72069c3d66671f504bcc6f6b6ebd98d10459e41dd9a89be8fbdd02287ee2d15b"
+            },
+            {
+              "member": "openssl-3.6.4/external/perl/Text-Template-1.56/lib/Text/Template.pm",
+              "sha256": "41815a23764f0ec4cb610718c0b2b012d9f0c91db75a6784d409b30a7c1a4b98"
+            },
+            {
+              "member": "openssl-3.6.4/external/perl/Text-Template-1.56/t/basic.t",
+              "sha256": "c302204f5c09b2e9f798697467ae8b9818fc7028b959cbe07b5af23e78ebdaed"
+            },
+            {
+              "member": "openssl-3.6.4/ssl/build.info",
+              "sha256": "b53c2118e1f7a882e071ab90c400ad745dfd7a219102da04f993aacb5eeb071f"
+            },
+            {
+              "member": "openssl-3.6.4/test/README.ssltest.md",
+              "sha256": "b00080516aa367dd1de123170fe4c96eaa270f54cbf9c51e5fabad76ce3f8b1e"
+            },
+            {
+              "member": "openssl-3.6.4/test/build.info",
+              "sha256": "47326ba664c3c78acfd01a757c9e977ca6728ea24850f7cabdb8f83a8ee17811"
+            },
+            {
+              "member": "openssl-3.6.4/test/certs/setup.sh",
+              "sha256": "4a8fe41edd76e97a09d4d752251ec2ee5f6b4881daa3796cd37ca49818031b5b"
+            },
+            {
+              "member": "openssl-3.6.4/test/recipes/04-test_pem_reading_data/NOTES.txt",
+              "sha256": "6ef166ef626ab83baae418760004b30f3931b8d9a1d0f3894d11bc4f5c13fd2f"
+            },
+            {
+              "member": "openssl-3.6.4/test/recipes/15-test_dsaparam.t",
+              "sha256": "c0cbec94a5bf0d307fc22e0d36cb85e6e0b6bddf327c39a14e277197d9fe1e66"
+            },
+            {
+              "member": "openssl-3.6.4/test/recipes/15-test_ecparam.t",
+              "sha256": "2b93a768a3cee6bf470b8a4099cf1013a30521117b82b18001a979b037248d09"
+            },
+            {
+              "member": "openssl-3.6.4/test/recipes/20-test_dhparam_check.t",
+              "sha256": "b73158aac055053f3a654ed0ab67ae63c067a3d398777db3aa6cef2e4d5cc385"
+            },
+            {
+              "member": "openssl-3.6.4/test/recipes/25-test_verify.t",
+              "sha256": "5ba87fccf8a3f9b0d65fdb442744829d9873eebe3d3ca51aa74a8da80515ecc6"
+            },
+            {
+              "member": "openssl-3.6.4/test/recipes/40-test_rehash.t",
+              "sha256": "4a881497e396a44925b8113620735994b2988646859fd2e93bdd06608ce8244a"
+            },
+            {
+              "member": "openssl-3.6.4/test/recipes/70-test_quic_multistream_data/verify-qlog.py",
+              "sha256": "84a1b72749ee40db72adcd0356af3151b1ebee11fffd4ddf3c6726222d64c034"
+            },
+            {
+              "member": "openssl-3.6.4/test/recipes/80-test_ssl_new.t",
+              "sha256": "89e2abaa16e32c1ec714982b24692481622c4e037623152708fa611081253f46"
+            },
+            {
+              "member": "openssl-3.6.4/test/run_tests.pl",
+              "sha256": "a8e9f54f435780419be643e5b9ac3c1c0f2eac1a26375120d2a87cd27cc41660"
+            },
+            {
+              "member": "openssl-3.6.4/tools/c_rehash.in",
+              "sha256": "0c512346aa0a359902736124a7ee143a59e3005d0e1480831c8b2d78ff2ea349"
+            },
+            {
+              "member": "openssl-3.6.4/util/ck_errf.pl",
+              "sha256": "2fdd62a995295642058b65c6ce1583e7f029db40bc5d86add682fa93c7a75e44"
+            },
+            {
+              "member": "openssl-3.6.4/util/copy.pl",
+              "sha256": "50a328ae75bf158cc2dbd9c0ee2526230f8ae76a4debb168d28cd497a013319c"
+            },
+            {
+              "member": "openssl-3.6.4/util/find-doc-nits",
+              "sha256": "db4aed2b7ede0d32ee406549dac57dfb511944e74ec1c53f0714bc2608e52b7d"
+            },
+            {
+              "member": "openssl-3.6.4/util/fix-includes",
+              "sha256": "9d3aa292f3ca7af1917e481f0a086b77655c5fded8bad2101dab68e03681f178"
+            },
+            {
+              "member": "openssl-3.6.4/util/mkerr.pl",
+              "sha256": "e9cc0cc32e3b5304ae7fd546b1f3aaa77b0c7836bf42ba9d44b02e11bfe67b82"
+            },
+            {
+              "member": "openssl-3.6.4/util/perl/OpenSSL/Glob.pm",
+              "sha256": "4100606067f0b577d3e6d2d2aaca93d826fb66105639eb94ff76c70ae8c526c9"
+            },
+            {
+              "member": "openssl-3.6.4/util/perl/OpenSSL/Test.pm",
+              "sha256": "f22bfb7feb6ec4301c5358c782674de042111c046272fdb80a421cc89981cc64"
+            },
+            {
+              "member": "openssl-3.6.4/util/perl/OpenSSL/fallback.pm",
+              "sha256": "9c457d583bd46e3d18c87a4a29a2fde7db1a16d007b1769429a53b865d22380a"
+            },
+            {
+              "member": "openssl-3.6.4/util/platform_symbols/unix-symbols.txt",
+              "sha256": "e15781e0ab9051a5f279bdaaf016076c8b22a4e0a31718129a28a9e2307cbaeb"
+            },
+            {
+              "member": "openssl-3.6.4/util/withlibctx.pl",
+              "sha256": "5dacb877ca32933e58642efe8fb850995cf06804f1c3e74d8b8cb287d2760e0f"
+            },
+            {
+              "member": "openssl-3.6.4/apps/req.c",
+              "sha256": "9a74c39a83fb5ece2483a0e7f5411f5e0322b3b0f9c9262f3b60f451f9afba80"
+            },
+            {
+              "member": "openssl-3.6.4/doc/man1/openssl-req.pod.in",
+              "sha256": "4c61efab8d779c3d552bd211d802b93086d3ef93114febe7eb0361fd0fa8aafd"
+            }
+          ]
+        },
+        {
+          "member": "openssl-3.6.4/test/certs/ncca-key.pem",
+          "sha256": "045409cc24a17bede92d82ad1322f77b4f3a67b21e017460d75fef3076d57616",
+          "reason": "Legacy key data outside the fixed shared DLL compile, install and runtime graph; credential safety not approved.",
+          "evidence": [
+            {
+              "member": "openssl-3.6.4/CHANGES.md",
+              "sha256": "4260fc83da75b4987b5ff829a71b81d75e94cd3628fa4e9c52ab24e1e15a4449"
+            },
+            {
+              "member": "openssl-3.6.4/Configurations/00-base-templates.conf",
+              "sha256": "29362786b6daeeea7c137283158e2c0454c2495b3a329d88b2f2adfc98f17a7b"
+            },
+            {
+              "member": "openssl-3.6.4/Configurations/10-main.conf",
+              "sha256": "f29bb8de5bfbace12cbf9f4fbf952fccc7a34e105d50105d35e99754df53f2df"
+            },
+            {
+              "member": "openssl-3.6.4/Configurations/15-android.conf",
+              "sha256": "c6bc311480b0886aeeb47143d3726d66cc2984cf1aefbbe9e878039a282c0901"
+            },
+            {
+              "member": "openssl-3.6.4/Configurations/unix-Makefile.tmpl",
+              "sha256": "cc02bca6ac2c5a32c89661d391bc1c610116fa2c98f7a202a41056c05a25f8b8"
+            },
+            {
+              "member": "openssl-3.6.4/Configurations/windows-makefile.tmpl",
+              "sha256": "e1a8d9a44afb425c84a02e98d68527bcbdf098efbcd614445b596b210ba829d2"
+            },
+            {
+              "member": "openssl-3.6.4/Configure",
+              "sha256": "622e9c7013848b2b14adf5e5d20cadd5cc1555928bfcb9b9715c0099ae578e36"
+            },
+            {
+              "member": "openssl-3.6.4/apps/build.info",
+              "sha256": "9ff591669eaefd8db77242f899ae4ac8f6fe4dea5446b5cb1f417cbf68f6f09f"
+            },
+            {
+              "member": "openssl-3.6.4/apps/lib/win32_init.c",
+              "sha256": "a328c3473981b70116eb60fe07d92fc67ec9cb91c54903505940acc72338bde8"
+            },
+            {
+              "member": "openssl-3.6.4/build.info",
+              "sha256": "f37b88ff8ef303ecd462e7d96e6ffb1533dd37074716fb8ff6331eb2dd80de11"
+            },
+            {
+              "member": "openssl-3.6.4/crypto/LPdir_unix.c",
+              "sha256": "5b08afaef95f9fae98635c98d767c3180fb237aa70da612df8fe76dae127d895"
+            },
+            {
+              "member": "openssl-3.6.4/crypto/build.info",
+              "sha256": "09c92ed9a227774640b9dcdf456443337e521c764369be3f5263bf36778760fb"
+            },
+            {
+              "member": "openssl-3.6.4/demos/http3/gen_nghttp3.pl",
+              "sha256": "9f4e32a8807da8dad748dd126864e560195b6e6f18971b59386f4deaa934021d"
+            },
+            {
+              "member": "openssl-3.6.4/doc/build.info.in",
+              "sha256": "c509a2d213f77c3c588e9b3d0898081463171608ef399e6533681fd68575a726"
+            },
+            {
+              "member": "openssl-3.6.4/external/perl/Text-Template-1.56/Changes",
+              "sha256": "72069c3d66671f504bcc6f6b6ebd98d10459e41dd9a89be8fbdd02287ee2d15b"
+            },
+            {
+              "member": "openssl-3.6.4/external/perl/Text-Template-1.56/lib/Text/Template.pm",
+              "sha256": "41815a23764f0ec4cb610718c0b2b012d9f0c91db75a6784d409b30a7c1a4b98"
+            },
+            {
+              "member": "openssl-3.6.4/external/perl/Text-Template-1.56/t/basic.t",
+              "sha256": "c302204f5c09b2e9f798697467ae8b9818fc7028b959cbe07b5af23e78ebdaed"
+            },
+            {
+              "member": "openssl-3.6.4/ssl/build.info",
+              "sha256": "b53c2118e1f7a882e071ab90c400ad745dfd7a219102da04f993aacb5eeb071f"
+            },
+            {
+              "member": "openssl-3.6.4/test/README.ssltest.md",
+              "sha256": "b00080516aa367dd1de123170fe4c96eaa270f54cbf9c51e5fabad76ce3f8b1e"
+            },
+            {
+              "member": "openssl-3.6.4/test/build.info",
+              "sha256": "47326ba664c3c78acfd01a757c9e977ca6728ea24850f7cabdb8f83a8ee17811"
+            },
+            {
+              "member": "openssl-3.6.4/test/certs/setup.sh",
+              "sha256": "4a8fe41edd76e97a09d4d752251ec2ee5f6b4881daa3796cd37ca49818031b5b"
+            },
+            {
+              "member": "openssl-3.6.4/test/recipes/04-test_pem_reading_data/NOTES.txt",
+              "sha256": "6ef166ef626ab83baae418760004b30f3931b8d9a1d0f3894d11bc4f5c13fd2f"
+            },
+            {
+              "member": "openssl-3.6.4/test/recipes/15-test_dsaparam.t",
+              "sha256": "c0cbec94a5bf0d307fc22e0d36cb85e6e0b6bddf327c39a14e277197d9fe1e66"
+            },
+            {
+              "member": "openssl-3.6.4/test/recipes/15-test_ecparam.t",
+              "sha256": "2b93a768a3cee6bf470b8a4099cf1013a30521117b82b18001a979b037248d09"
+            },
+            {
+              "member": "openssl-3.6.4/test/recipes/20-test_dhparam_check.t",
+              "sha256": "b73158aac055053f3a654ed0ab67ae63c067a3d398777db3aa6cef2e4d5cc385"
+            },
+            {
+              "member": "openssl-3.6.4/test/recipes/25-test_verify.t",
+              "sha256": "5ba87fccf8a3f9b0d65fdb442744829d9873eebe3d3ca51aa74a8da80515ecc6"
+            },
+            {
+              "member": "openssl-3.6.4/test/recipes/40-test_rehash.t",
+              "sha256": "4a881497e396a44925b8113620735994b2988646859fd2e93bdd06608ce8244a"
+            },
+            {
+              "member": "openssl-3.6.4/test/recipes/70-test_quic_multistream_data/verify-qlog.py",
+              "sha256": "84a1b72749ee40db72adcd0356af3151b1ebee11fffd4ddf3c6726222d64c034"
+            },
+            {
+              "member": "openssl-3.6.4/test/recipes/80-test_ssl_new.t",
+              "sha256": "89e2abaa16e32c1ec714982b24692481622c4e037623152708fa611081253f46"
+            },
+            {
+              "member": "openssl-3.6.4/test/run_tests.pl",
+              "sha256": "a8e9f54f435780419be643e5b9ac3c1c0f2eac1a26375120d2a87cd27cc41660"
+            },
+            {
+              "member": "openssl-3.6.4/tools/c_rehash.in",
+              "sha256": "0c512346aa0a359902736124a7ee143a59e3005d0e1480831c8b2d78ff2ea349"
+            },
+            {
+              "member": "openssl-3.6.4/util/ck_errf.pl",
+              "sha256": "2fdd62a995295642058b65c6ce1583e7f029db40bc5d86add682fa93c7a75e44"
+            },
+            {
+              "member": "openssl-3.6.4/util/copy.pl",
+              "sha256": "50a328ae75bf158cc2dbd9c0ee2526230f8ae76a4debb168d28cd497a013319c"
+            },
+            {
+              "member": "openssl-3.6.4/util/find-doc-nits",
+              "sha256": "db4aed2b7ede0d32ee406549dac57dfb511944e74ec1c53f0714bc2608e52b7d"
+            },
+            {
+              "member": "openssl-3.6.4/util/fix-includes",
+              "sha256": "9d3aa292f3ca7af1917e481f0a086b77655c5fded8bad2101dab68e03681f178"
+            },
+            {
+              "member": "openssl-3.6.4/util/mkerr.pl",
+              "sha256": "e9cc0cc32e3b5304ae7fd546b1f3aaa77b0c7836bf42ba9d44b02e11bfe67b82"
+            },
+            {
+              "member": "openssl-3.6.4/util/perl/OpenSSL/Glob.pm",
+              "sha256": "4100606067f0b577d3e6d2d2aaca93d826fb66105639eb94ff76c70ae8c526c9"
+            },
+            {
+              "member": "openssl-3.6.4/util/perl/OpenSSL/Test.pm",
+              "sha256": "f22bfb7feb6ec4301c5358c782674de042111c046272fdb80a421cc89981cc64"
+            },
+            {
+              "member": "openssl-3.6.4/util/perl/OpenSSL/fallback.pm",
+              "sha256": "9c457d583bd46e3d18c87a4a29a2fde7db1a16d007b1769429a53b865d22380a"
+            },
+            {
+              "member": "openssl-3.6.4/util/platform_symbols/unix-symbols.txt",
+              "sha256": "e15781e0ab9051a5f279bdaaf016076c8b22a4e0a31718129a28a9e2307cbaeb"
+            },
+            {
+              "member": "openssl-3.6.4/util/withlibctx.pl",
+              "sha256": "5dacb877ca32933e58642efe8fb850995cf06804f1c3e74d8b8cb287d2760e0f"
+            },
+            {
+              "member": "openssl-3.6.4/apps/req.c",
+              "sha256": "9a74c39a83fb5ece2483a0e7f5411f5e0322b3b0f9c9262f3b60f451f9afba80"
+            },
+            {
+              "member": "openssl-3.6.4/doc/man1/openssl-req.pod.in",
+              "sha256": "4c61efab8d779c3d552bd211d802b93086d3ef93114febe7eb0361fd0fa8aafd"
+            }
+          ]
+        }
+      ]
+    },
+    "limitations": [
+      "Windows setup and portable are unsigned.",
+      "Actual clean Windows installation and installer upgrade have not been validated.",
+      "Windows compatibility output uses software texture transfer capped at 1920x1080; hardware decoding remains available.",
+      "Physical speaker output, 4K output and long playback/performance acceptance remain unvalidated."
+    ],
+    "sourceDerivationPolicySha256": "9a677964b6b22518278e36e90fa11d0be8a836bea98586975c64f6136ac1792f",
+    "nativePackageBinariesUnchanged": true,
+    "portableDlls": 159,
+    "flutterPluginBinariesRebuiltWithApp": [
+      "local_auth_windows_plugin.dll",
+      "permission_handler_windows_plugin.dll"
+    ],
+    "packagingRevision": {
+      "removedMember": "data/flutter_assets/kernel_blob.bin",
+      "removedSha256": "fdb7bf145b3241c929be2b47dc2ec9ba6e4c46edcbba05e4323f5e2955e47300",
+      "retainedFileCount": 423,
+      "sourceFilesUnchanged": true,
+      "aotSha256": "f9b9e33118f7b52333dbd371f48a3ed8c6cb60c6a86074308531f8cf906c143a",
+      "packageRevision": "publication-2",
+      "packageBuildId": "JMS-0.11.1-jms.30-windows-d20f9393ca92-package-2",
+      "applicationRecompiled": false,
+      "applicationBuildId": "JMS-0.11.1-jms.30-windows-d20f9393ca92",
+      "sourceCommit": "d20f9393ca9267df56b1b6f525195a1bcc798b8c",
+      "originalManifestSha256": "a78e1ef9649510f3bc2c4e717ac8da4bc673a0a32b5c3382517d0de1fb0afe69",
+      "originalOutputs": [
+        {
+          "file": "JMS-Windows-0.11.1-jms.30-x64-portable.zip",
+          "size": 163548072,
+          "sha256": "01326ea2501a34b74b49cb26f1583c550665806a3557cab6906e52f7ed25a1f8"
+        },
+        {
+          "file": "JMS-Windows-0.11.1-jms.30-x64-setup.exe",
+          "size": 114740317,
+          "sha256": "e4915614b1f5ec87eb8354f5d86c4a00445cc0ae0d743a0c4847e6438ac08f5e"
+        }
+      ],
+      "nativeDllsUnchanged": 159,
+      "closedNativeDllsUnchanged": 140,
+      "officialDebugOnlyEvidence": {
+        "revision": "adc901062556672b4138e18a4dc62a4be8f4b3c2",
+        "sourceUrl": "https://raw.githubusercontent.com/flutter/flutter/adc901062556672b4138e18a4dc62a4be8f4b3c2/packages/flutter_tools/lib/src/build_system/targets/common.dart",
+        "member": "packages/flutter_tools/lib/src/build_system/targets/common.dart",
+        "memberSha256": "a4f5d31cce7390016ce2c996dadac08df93064b543212fefaf23913f2b686fa8",
+        "localMemberSha256": "c3511c8cf386d5cbc36823a27b0e71fb0d039035706f58bace30e75938273425",
+        "localDifference": "Windows checkout CRLF only; complete normalized bytes identical.",
+        "lineStart": 66,
+        "lineEnd": 85,
+        "scope": "Only debug build copies kernel and runtime snapshots; release uses its separately installed AOT library."
+      },
+      "originalWindowsCMakeSha256": "d3df361b35cbffdd05dda8d13eba610155a847be0cd1e359f994c3163ce9a2e1",
+      "unchangedInstallerRecipeSha256": "c2cba8e583f8b2c8cd43fbd5b9e143fffac4cf1e900a39345bf78a2ef7af9c0f",
+      "retainedFileManifestSha256": "0deeeee6fa02d221d8d9eb6cf83869ed4a3ea984337dc7e4ad336a2fd190d682",
+      "correctedOutputs": [
+        {
+          "file": "JMS-Windows-0.11.1-jms.30-x64-portable.zip",
+          "size": 129500933,
+          "sha256": "b31b74afae11693e1e7e3b9492a9d92738a338473922bb00cfd3bdfb1d3ef5a4"
+        },
+        {
+          "file": "JMS-Windows-0.11.1-jms.30-x64-setup.exe",
+          "size": 90651874,
+          "sha256": "2b1209a5ed828686b31d6b90fd67190d213e0d9475a33e2fe4274be60ddcf871"
+        }
+      ]
+    },
+    "verificationRevision": "f62323ed996b50149106983e52125c1450c7cbd4",
+    "privacyReviewRegistrySha256": "c9f608eb2ffa3e1001de1acc1fc929221deaf7bf8108584dbb586b0333ef4ae5"
+  },
+  "assets": [
+    {
+      "name": "JMS-Windows-0.11.1-jms.30-source.zip",
+      "size": 69087551,
+      "sha256": "eb70a2d661e06345ec5b056f202b02e1b0fec6ac0ae45f39196de88d1663f835"
+    },
+    {
+      "name": "JMS-Windows-0.11.1-jms.30-x64-portable.zip",
+      "size": 129500933,
+      "sha256": "b31b74afae11693e1e7e3b9492a9d92738a338473922bb00cfd3bdfb1d3ef5a4"
+    },
+    {
+      "name": "JMS-Windows-0.11.1-jms.30-x64-setup.exe",
+      "size": 90651874,
+      "sha256": "2b1209a5ed828686b31d6b90fd67190d213e0d9475a33e2fe4274be60ddcf871"
+    },
+    {
+      "name": "RELEASE_NOTES.md",
+      "size": 1854,
+      "sha256": "9f61591487f9d3ef6a878e349ac5fcc0b7558665cf5e125e5abafdde0702fc77"
+    },
+    {
+      "name": "angle-fixed-source-materials.zip",
+      "size": 140250064,
+      "sha256": "102209f5535d52e705ce0782613ce400cbe1e25cdca2973fbfa842e863c53781"
+    },
+    {
+      "name": "gnutls-selftest-evidence.zip",
+      "size": 17114,
+      "sha256": "7e01b5af221532f3c2e12b4232d58bfee70ea221c92207eba7f8e536b8c272d8"
+    },
+    {
+      "name": "libssh-parser-sentinel-evidence.zip",
+      "size": 25098,
+      "sha256": "add886881554fa172db36e89c50e45e00b946e6a97bea9f90991e4b8bafa3fe4"
+    },
+    {
+      "name": "mingw-w64-aom-3.15.1-1.src.tar.zst",
+      "size": 6608276,
+      "sha256": "91b771852d87e5ee67a0d0efb16a0554481de1903c25e3da9113d1b14c5561f3"
+    },
+    {
+      "name": "mingw-w64-brotli-1.2.0-1.src.tar.zst",
+      "size": 644113,
+      "sha256": "2f0f93875aac21990d20f1eaf0ad8b970eb6f186c663c77ae47aaaf9e5711fcf"
+    },
+    {
+      "name": "mingw-w64-bzip2-1.0.8-4.src.tar.zst",
+      "size": 818825,
+      "sha256": "fd9360917314d1cbccb3cb15ed8450d1e56b8a9f733b606504aba52c52159e54"
+    },
+    {
+      "name": "mingw-w64-cairo-1.18.6-2.src.tar.zst",
+      "size": 32721088,
+      "sha256": "ff7124c2155b1169fe102a1dcba1cd7a21f69dace3adf88f1dd8f85ef7ad1e19"
+    },
+    {
+      "name": "mingw-w64-dav1d-1.5.4-1.src.tar.zst",
+      "size": 1041020,
+      "sha256": "dd7bdbd140996eb26e857c2cfe80d0952641c997a5826c15d5bb204571d2518e"
+    },
+    {
+      "name": "mingw-w64-expat-2.8.5-1.src.tar.zst",
+      "size": 530963,
+      "sha256": "40a9ee9744ab828e205c409979f1bde553e8a6c20bd3d956a235d0e925ffaaba"
+    },
+    {
+      "name": "mingw-w64-ffmpeg-9.0.2-1.src.tar.zst",
+      "size": 12050317,
+      "sha256": "91c40f70437632e425638cf5786d5b49cad6d3cf84c384a63cd090781a3063d0"
+    },
+    {
+      "name": "mingw-w64-fftw-3.3.11-1.src.tar.zst",
+      "size": 4229778,
+      "sha256": "3d3f5489e62f1045aff687389500ffb65744c7e76970af879eccde1f887b3b58"
+    },
+    {
+      "name": "mingw-w64-fontconfig-2.18.3-1.src.tar.zst",
+      "size": 659688,
+      "sha256": "7df65dbf84397f4f71c6aa0bd39fac93f839d6b87f04a935773b69828740230d"
+    },
+    {
+      "name": "mingw-w64-freetype-2.14.3-1.src.tar.zst",
+      "size": 2673693,
+      "sha256": "ee8071d0a6e82a274e959902898115f4c9c376a2a8e209d83dfe746c18004ec0"
+    },
+    {
+      "name": "mingw-w64-fribidi-1.0.17-1.src.tar.zst",
+      "size": 1204778,
+      "sha256": "0f192cf5009fe18e2ac752273de509094cf161106fbedd69f112186e75253850"
+    },
+    {
+      "name": "mingw-w64-gcc-16.2.0-4.src.tar.zst",
+      "size": 107228968,
+      "sha256": "a1792a44764405bc365746e0e60f0daa122076cec0dddd35a781d141f94273cf"
+    },
+    {
+      "name": "mingw-w64-gdk-pixbuf2-2.44.7-1.src.tar.zst",
+      "size": 6041891,
+      "sha256": "34986b21db1b40021a37835e90dad04250d1e31dc90da538b9922acd097e0019"
+    },
+    {
+      "name": "mingw-w64-gettext-1.0-1.src.tar.zst",
+      "size": 10267655,
+      "sha256": "cca0d0c8f60353faccc5ad40405240014e4a7ccc8b1c6ca9f4626aef3097d26e"
+    },
+    {
+      "name": "mingw-w64-ggml-0.25.3-1.src.tar.zst",
+      "size": 4088440,
+      "sha256": "e8f38f496961070b9a5060c689197979ea58cf4261daeec6919573989b841408"
+    },
+    {
+      "name": "mingw-w64-glib2-2.90.0-1.src.tar.zst",
+      "size": 5835342,
+      "sha256": "580246fb9db6083e0191ac7fd0e44af71df6ec0dc52cfd384b5ae07f8665cc9e"
+    },
+    {
+      "name": "mingw-w64-gmp-6.3.0-2.src.tar.zst",
+      "size": 2097066,
+      "sha256": "f288f944fd9609db220bcf6a8dd0703a5674eeb906ef35eb8485bb8192135994"
+    },
+    {
+      "name": "mingw-w64-gnutls-3.8.13-3.src.tar.zst",
+      "size": 7280076,
+      "sha256": "7889cd73810d909642c0f122b40cfe0eaec5b0d2985804f145cd90c6a51c0435"
+    },
+    {
+      "name": "mingw-w64-graphite2-1.3.15-1.src.tar.zst",
+      "size": 13317053,
+      "sha256": "eb76ce274c68ea6bad0883144c21e44a803ec94fed9dc0f6584feb0a8415a1d6"
+    },
+    {
+      "name": "mingw-w64-gsm-1.0.24-1.src.tar.zst",
+      "size": 69390,
+      "sha256": "623729958cd0ca08e15ff6a51a54aa1bb73fe0356c29a42fc35342087497d61a"
+    },
+    {
+      "name": "mingw-w64-harfbuzz-14.5.0-1.src.tar.zst",
+      "size": 20267093,
+      "sha256": "6a4fc5b88875ed1e5e120e6dd27569e3917bfee13f0d300654fc7e6241792433"
+    },
+    {
+      "name": "mingw-w64-highway-1.4.0-3.src.tar.zst",
+      "size": 3691338,
+      "sha256": "ce2cbf7c1c2af92796a35250a3e3e5669968446656dc78b278d89ac650ed14bb"
+    },
+    {
+      "name": "mingw-w64-jbigkit-2.1-6.src.tar.zst",
+      "size": 443470,
+      "sha256": "64757867df26308c14d22b184aaecb43742c25ee8d24f18da51e3d1e09be8ac2"
+    },
+    {
+      "name": "mingw-w64-lame-3.100-3.src.tar.zst",
+      "size": 1526904,
+      "sha256": "dfd51143ea25aa0b67f5d355127b8a89a27379b1b128f0b2f9eed7c3327656ab"
+    },
+    {
+      "name": "mingw-w64-lcms2-2.19.1-1.src.tar.zst",
+      "size": 5709029,
+      "sha256": "83414d0d95c5cb2548d3050670694e9efc64304a52190f42bcad951efa038b41"
+    },
+    {
+      "name": "mingw-w64-lerc-4.1.1-1.src.tar.zst",
+      "size": 4056783,
+      "sha256": "697824f8dba0b297949b294d7f850a21dfa817802cf91f3a73b6192a7c234f46"
+    },
+    {
+      "name": "mingw-w64-libarchive-3.8.9-6.src.tar.zst",
+      "size": 6623385,
+      "sha256": "cab3ef58ac37929d80cd07d2726a794a84ef7bd8cd2904585786c3f9a899d443"
+    },
+    {
+      "name": "mingw-w64-libass-0.17.5-1.src.tar.zst",
+      "size": 461691,
+      "sha256": "4a68edae2c1454ffcf7cf0a6fccf6930c876caa5fe2422cdb0b34d1fc0f5fb03"
+    },
+    {
+      "name": "mingw-w64-libb2-0.98.1-3.src.tar.zst",
+      "size": 538092,
+      "sha256": "2069710882bfe0b70872b32c558af9895a37f742a11e0cb15f80dd7eedaf5717"
+    },
+    {
+      "name": "mingw-w64-libbluray-1.5.0-1.src.tar.zst",
+      "size": 474721,
+      "sha256": "4dcdf8ceb22b2f249bccd06c7572b3e5edb4e6efd101ab440bf479b40ec60dcc"
+    },
+    {
+      "name": "mingw-w64-libcaca-0.99.beta20-8.src.tar.zst",
+      "size": 1093965,
+      "sha256": "09b0b6f08a58ddb4ffd16d43641ccae526094ac48687109ff2c2b503cf9c5b3f"
+    },
+    {
+      "name": "mingw-w64-libcdio-2.4.0-1.src.tar.zst",
+      "size": 1722634,
+      "sha256": "9e56942d5abe0064284d462d38cacd2c5d9293d5de43a136231a69d0b4e75fb6"
+    },
+    {
+      "name": "mingw-w64-libcdio-paranoia-10.2+2.0.2-2.src.tar.zst",
+      "size": 2446760,
+      "sha256": "55042c7b2085083e2819804079b11dda96b86f4a658b71284b5476806bfac503"
+    },
+    {
+      "name": "mingw-w64-libdatrie-0.2.14-1.src.tar.zst",
+      "size": 327473,
+      "sha256": "da58ca439051a8cfb1d7f15cdd82af104e1ea1eeefdb090e608d2305a747df7d"
+    },
+    {
+      "name": "mingw-w64-libdeflate-1.26-1.src.tar.zst",
+      "size": 200156,
+      "sha256": "8f08ba1c541d7cdffde7113e0796fa3ed5ae494702c57d86b736f82167805ea6"
+    },
+    {
+      "name": "mingw-w64-libdovi-3.4.0-1.src.tar.zst",
+      "size": 491686,
+      "sha256": "50e7303249bd57b9bb543e87e5de4b6331d744b22d2d26861bc8968ee60a70a3"
+    },
+    {
+      "name": "mingw-w64-libdvdcss-1.6.0-1.src.tar.zst",
+      "size": 103178,
+      "sha256": "cc180aa06504341ebda02d64aae90cc9b9d8bcea60d003dbef2d1a61fe0e96ab"
+    },
+    {
+      "name": "mingw-w64-libdvdnav-7.0.0-2.src.tar.zst",
+      "size": 106005,
+      "sha256": "961e34401d8e33593cee3eaf4c6c7745f4767e9a170f73a6bec64ee5554c1ebd"
+    },
+    {
+      "name": "mingw-w64-libdvdread-7.1.1-1.src.tar.zst",
+      "size": 125880,
+      "sha256": "f5928433f1572f2996bf7f2fe49b2ce4148c603e6e9672919c811fcfe8e359cb"
+    },
+    {
+      "name": "mingw-w64-libffi-3.8.0-1.src.tar.zst",
+      "size": 1582238,
+      "sha256": "641ea78ce0333839eab5262656f03fdcfd8496d7388bd7b27e4f0638aeed9adf"
+    },
+    {
+      "name": "mingw-w64-libgme-0.6.5-2.src.tar.zst",
+      "size": 349057,
+      "sha256": "b77a9be1dd65255df797a793a525a25a73b75a8c3c1379f79b2ea9376e854fd6"
+    },
+    {
+      "name": "mingw-w64-libiconv-1.19-1.src.tar.zst",
+      "size": 5131029,
+      "sha256": "74428280c17094da5b702c29b2e1a0abae59556ea5dfdd65705cc8ccc1e000fb"
+    },
+    {
+      "name": "mingw-w64-libidn2-2.3.8-4.src.tar.zst",
+      "size": 2147337,
+      "sha256": "cd83e8514fbeb6a4499299b88691b9b9ecc3114cca1e2be4f6c54aab6ae9ddd0"
+    },
+    {
+      "name": "mingw-w64-libjpeg-turbo-3.2.0-1.src.tar.zst",
+      "size": 2536411,
+      "sha256": "98bfbef730e79ca74c88842eb27730db11429dbae4d95e0f5d7859e316026a74"
+    },
+    {
+      "name": "mingw-w64-libjxl-0.12.0-1.src.tar.zst",
+      "size": 1700775,
+      "sha256": "2f2e1c4537d8824898a713fa3e7d475e66223b0b1b20141dfa73b26da5bc4a54"
+    },
+    {
+      "name": "mingw-w64-liblc3-1.1.3-1.src.tar.zst",
+      "size": 1660503,
+      "sha256": "20e74ad319fd5da576e071a8b54dbb2c9891e7ddcf6f16a557a33011c2dc7262"
+    },
+    {
+      "name": "mingw-w64-libogg-1.3.6-1.src.tar.zst",
+      "size": 606383,
+      "sha256": "af94ea3c4011694b7a68904144ec1ab73c6c649152c78cb93a7df2a6c386b351"
+    },
+    {
+      "name": "mingw-w64-libopenmpt-0.8.9-1.src.tar.zst",
+      "size": 1763119,
+      "sha256": "a4da2ecddb7151ff614c15785f9fcf4e4b26c4e15169f980dd77861a3773c147"
+    },
+    {
+      "name": "mingw-w64-libopenmpt-modplug-0.8.9.0-4.src.tar.zst",
+      "size": 400707,
+      "sha256": "a8ade36a25f48b0ccec0d3b4b91ec8d4a476ee4d5aa5e529b62f1667bbebdeba"
+    },
+    {
+      "name": "mingw-w64-libplacebo-7.360.1-2.src.tar.zst",
+      "size": 864193,
+      "sha256": "2abe10f1d16981407e8108c5ccb2e13cbeb28ce62f702a4caf1165b732e85bf0"
+    },
+    {
+      "name": "mingw-w64-libpng-1.6.58-1.src.tar.zst",
+      "size": 1081411,
+      "sha256": "9e985fc4cef509ec689f982dc6a948e9a8ee5184db25d65e9dd4c21872092348"
+    },
+    {
+      "name": "mingw-w64-librsvg-2.63.2-1.src.tar.zst",
+      "size": 6771250,
+      "sha256": "23557fdcf43fbc1ec27e4f2808135e3e214b3631cf69ab8706b91edd46453b19"
+    },
+    {
+      "name": "mingw-w64-libsamplerate-0.2.2-1.src.tar.zst",
+      "size": 3321928,
+      "sha256": "7528af70b04da314fd5adc8c4ffe63d4bdc2f616ac7d3ac0d28876a1ac4eae52"
+    },
+    {
+      "name": "mingw-w64-libsoxr-0.1.3-5-source-materials.zip",
+      "size": 195624,
+      "sha256": "e9862665668cb1f5ad566b24fdf57b647c170400a6d54b958b24ef7cd27504e9"
+    },
+    {
+      "name": "mingw-w64-libssh-0.12.2-1.src.tar.zst",
+      "size": 762807,
+      "sha256": "b935d915b5392e573f65855c491e476ae38860d3929d2b564e507aa660c3e05b"
+    },
+    {
+      "name": "mingw-w64-libtasn1-4.21.0-1.src.tar.zst",
+      "size": 1732161,
+      "sha256": "c626129c5131eef0a45c736274f0844747605a105161cc0f7d39f6e1c70ed0ff"
+    },
+    {
+      "name": "mingw-w64-libthai-0.1.30-1.src.tar.zst",
+      "size": 438909,
+      "sha256": "e4f8d840fca132eb47aed311fc2c36dc59604b9ecd0aa310161b9d1e2cee4d03"
+    },
+    {
+      "name": "mingw-w64-libtheora-1.2.0-1.src.tar.zst",
+      "size": 2529398,
+      "sha256": "2390e994f10cb3e3e5f32898010ecede4e61bd10d47cfe4d1500ed8c7a774e85"
+    },
+    {
+      "name": "mingw-w64-libtiff-4.7.2-1.src.tar.zst",
+      "size": 4077229,
+      "sha256": "11f3bdc23a154a5cea2f8fffeab3e2a118bd773d2769e1dcea926ff02f2cf3e2"
+    },
+    {
+      "name": "mingw-w64-libunibreak-7.0-1.src.tar.zst",
+      "size": 170402,
+      "sha256": "3d51ed18b20deb475c6947ea8fdabb7d6107962e2e6e690de90e5227537728ad"
+    },
+    {
+      "name": "mingw-w64-libunistring-1.4.2-1.src.tar.zst",
+      "size": 4770800,
+      "sha256": "a5bafb360d5c13c5c52ef071d5a8288ce2345346b902f20ed6e9322766ec60eb"
+    },
+    {
+      "name": "mingw-w64-libva-2.24.1-1.src.tar.zst",
+      "size": 308687,
+      "sha256": "7854d48806606fd1503444f3aba96a7aa19a3c6c07f74f4b0f50257dac9a1469"
+    },
+    {
+      "name": "mingw-w64-libvorbis-1.3.7-3.src.tar.zst",
+      "size": 1653869,
+      "sha256": "429f3219de93435cbaa7737627b3b548ba8917d09c525f2005b9283ac5b39142"
+    },
+    {
+      "name": "mingw-w64-libvpl-2.17.0-1.src.tar.zst",
+      "size": 12923471,
+      "sha256": "4bd392447f4a5f986462cfc412ab7ace3dfaa980e53b41f35d08c44b8b31cc9d"
+    },
+    {
+      "name": "mingw-w64-libvpx-1.17.0-1.src.tar.zst",
+      "size": 5653451,
+      "sha256": "7b322fffe50501d26bbbb489135e5001f6096da2529ad992c712c00c94bb38dd"
+    },
+    {
+      "name": "mingw-w64-libwebp-1.6.0-1.src.tar.zst",
+      "size": 2589761,
+      "sha256": "c8c63f98e018a7595d22e8a3e65b7caf83345fed666866a6e67d153b16f48141"
+    },
+    {
+      "name": "mingw-w64-libxml2-2.15.4-1.src.tar.zst",
+      "size": 3805864,
+      "sha256": "e283bdd176377f82c3af57458d8623afedbba6d504d4480f93f49e39fb0a1417"
+    },
+    {
+      "name": "mingw-w64-luajit-2.1.1788460057-2-source-materials.zip",
+      "size": 1213285,
+      "sha256": "1a97ecda30c5186ddd891c327d862c0ef6ffaeb0c06adba616904909ff5e171f"
+    },
+    {
+      "name": "mingw-w64-lz4-1.10.0-1.src.tar.zst",
+      "size": 387730,
+      "sha256": "d5cccad7b20a3e5d0cd59ebb6abb0819e8fe21c1cda4c2427161bbd416e9c08d"
+    },
+    {
+      "name": "mingw-w64-mpg123-1.33.7-1.src.tar.zst",
+      "size": 1126100,
+      "sha256": "f924cfca2e6cb867e4efc2aa3935bac24593da1631bf1a8613bc35b4fae88c18"
+    },
+    {
+      "name": "mingw-w64-mpv-0.41.0-8.src.tar.zst",
+      "size": 7107867,
+      "sha256": "fa594a8e13fa22300435925ebe57eca1c2a4015b68f00bf506c99fd6a6aff1a4"
+    },
+    {
+      "name": "mingw-w64-mujs-1.3.10-1.src.tar.zst",
+      "size": 639472,
+      "sha256": "069115297e0e03621e33a31b54a3ab612ad96052e5b8245680b0bc7d02ead853"
+    },
+    {
+      "name": "mingw-w64-nettle-4.0-1.src.tar.zst",
+      "size": 2630115,
+      "sha256": "453187e86139bce3c5b94542cc709ead7f523f0fc33ce4cc2b8fe9d5a9719cdd"
+    },
+    {
+      "name": "mingw-w64-openal-1.25.2-1.src.tar.zst",
+      "size": 1394046,
+      "sha256": "303b60d2a227b97a667449e607991c74243a2f1225ad2e954b4c8d8e35172c10"
+    },
+    {
+      "name": "mingw-w64-opencore-amr-0.1.6-1.src.tar.zst",
+      "size": 936796,
+      "sha256": "359bb4bcea1f8f49f875898887c25ab5c3c95af5b34afeca00fffd7256e5bccb"
+    },
+    {
+      "name": "mingw-w64-openjpeg2-2.5.4-2.src.tar.zst",
+      "size": 2156125,
+      "sha256": "88be024421b79a557ea9cc94932806f5daddcae5d917895d81ac974df7f38b24"
+    },
+    {
+      "name": "mingw-w64-opus-1.6.1-1.src.tar.zst",
+      "size": 10472894,
+      "sha256": "f9f4f73a700edcd35e11d7f47bcb164c850b781fa2cccb48cd30d505262b43a2"
+    },
+    {
+      "name": "mingw-w64-p11-kit-0.26.5-1.src.tar.zst",
+      "size": 1094024,
+      "sha256": "1665c40c6237bbb9be868ecfc00ab65f9038047e4c608126de575ae4ecb5ca12"
+    },
+    {
+      "name": "mingw-w64-pango-1.58.2-1.src.tar.zst",
+      "size": 1920389,
+      "sha256": "df981b2c47d9344f3a4869645a8f2392916dac3e470634778453410ec813e390"
+    },
+    {
+      "name": "mingw-w64-pcre2-10.48-3.src.tar.zst",
+      "size": 2212426,
+      "sha256": "2d97640064e42c2d800580dc2e622487b6a2d980722380cdab5f5f71d311f39a"
+    },
+    {
+      "name": "mingw-w64-pixman-0.46.4-3.src.tar.zst",
+      "size": 662111,
+      "sha256": "2661cb135a6448f6d594e4642a643b2dec6fa0d773ac046aa786987a719160ed"
+    },
+    {
+      "name": "mingw-w64-python-3.14.7-1.src.tar.zst",
+      "size": 24125004,
+      "sha256": "0c37a34be1c2ae9d6aae9a41cc581675a324ebe826a992edc3bd8aa11eae3e70"
+    },
+    {
+      "name": "mingw-w64-rav1e-0.8.1-1.src.tar.zst",
+      "size": 3033670,
+      "sha256": "4a991f3a7d0e4ef23bc5e7eaae9ea0c83d16a18c48a3e621f1f3dfb10464b49d"
+    },
+    {
+      "name": "mingw-w64-rtmpdump-2.6-2-source-materials.zip",
+      "size": 175646,
+      "sha256": "7869d140054136756162156164d222c4c814b1791077d0e2a12e3de36bc68bb0"
+    },
+    {
+      "name": "mingw-w64-rubberband-3.3.0-1.src.tar.zst",
+      "size": 225223,
+      "sha256": "0d82946254533c85875e03dbde8d0303bbc4d1afcef8de79c9fdd1fff7324e82"
+    },
+    {
+      "name": "mingw-w64-shaderc-2026.3-1.src.tar.zst",
+      "size": 232417,
+      "sha256": "847da728a130dd9b59c1d8228877f564ae7160483070894bf0536442b59a14c8"
+    },
+    {
+      "name": "mingw-w64-speex-1.2.1-1.src.tar.zst",
+      "size": 1044182,
+      "sha256": "e1a419b525ee19d808c47fce97890a4cae610627c5a74e533a1c322d596f11ef"
+    },
+    {
+      "name": "mingw-w64-spirv-cross-1.1.4.357.0-1.src.tar.zst",
+      "size": 1992199,
+      "sha256": "4082735b9f40527966fcadd19dfdcafd8313d5187abae5d53c270af448aa7c4f"
+    },
+    {
+      "name": "mingw-w64-srt-1.5.7-1.src.tar.zst",
+      "size": 1795977,
+      "sha256": "bed7eb763e6d6c98aaf826d2375a959714669a8040a378ae19a81bed1d342daf"
+    },
+    {
+      "name": "mingw-w64-svt-av1-4.2.0-1.src.tar.zst",
+      "size": 11057168,
+      "sha256": "816303341956c53c37d2de9180d4bb10cf2365e38b21b06ffd653169edb2c3a7"
+    },
+    {
+      "name": "mingw-w64-uchardet-0.0.8-1.src.tar.zst",
+      "size": 224247,
+      "sha256": "a71176b7c5f3540a578d593967ad502e2452665405f2bf1374fbe46d3e7ad909"
+    },
+    {
+      "name": "mingw-w64-vapoursynth-65-8.src.tar.zst",
+      "size": 1871273,
+      "sha256": "b211b32f1d571f840de210a6839b29220a798bdca63336196e396252443e4b66"
+    },
+    {
+      "name": "mingw-w64-vid.stab-1.1.2-1-source-materials.zip",
+      "size": 118895,
+      "sha256": "819c60fb0ad4cef3f2d230aa70bc881f57dcdca9d24fedc8431c51c7666ac130"
+    },
+    {
+      "name": "mingw-w64-vulkan-loader-1.1.4.357.0-1.src.tar.zst",
+      "size": 1805036,
+      "sha256": "af28ead397f61609c07a8260279441b3e3113a42cbaaf04cec86933b65c60dc4"
+    },
+    {
+      "name": "mingw-w64-winpthreads-14.0.0.r426.g4564ee4b5-1-source-materials.zip",
+      "size": 17590084,
+      "sha256": "45e6e982d552aa5f5816215694d08f06d51dcd7d79659dec75c7ccc928c56f7c"
+    },
+    {
+      "name": "mingw-w64-x264-0.165.r3222.b35605a-3-source-materials.zip",
+      "size": 1182484,
+      "sha256": "c903e913e32a10d69a65274a7f4af54b6136b1b8c7f8a9ba9d089ae7f1e98764"
+    },
+    {
+      "name": "mingw-w64-x265-4.3-1.src.tar.zst",
+      "size": 2035612,
+      "sha256": "f2f94e2dd88cd9ce917bd68eb6cb3f41e15d63d56efbfa386416800efa3eae10"
+    },
+    {
+      "name": "mingw-w64-xvidcore-1.3.7-5.src.tar.zst",
+      "size": 698452,
+      "sha256": "400fb6859dcfbfa3f416098a3ff0cde2ca89daaae587b59dc34d150175d4841a"
+    },
+    {
+      "name": "mingw-w64-xz-5.8.4-1.src.tar.zst",
+      "size": 1569458,
+      "sha256": "b8acbc56b2bfe08df7bffff423f3bf07ee85dbec4e07416017ab04c8afb9d13e"
+    },
+    {
+      "name": "mingw-w64-zimg-3.0.6-3.src.tar.zst",
+      "size": 327715,
+      "sha256": "0e6026b3899ff49d109b89cbd51b9768b475f7c1b29c7655517da9c1a564a41e"
+    },
+    {
+      "name": "mingw-w64-zlib-ng-2.3.3-2.src.tar.zst",
+      "size": 2432615,
+      "sha256": "ef7a4579ba62860903cf0e7e151745bac3b0bdead0a1244befa4dbf1d5cfc3c4"
+    },
+    {
+      "name": "mingw-w64-zstd-1.5.7-2.src.tar.zst",
+      "size": 2402010,
+      "sha256": "306797282df799e95d550e6d0bb4b0a7b848027b8e13893a24236e060837c217"
+    },
+    {
+      "name": "mingw-w64-zvbi-0.2.45-1-source-materials.zip",
+      "size": 1082025,
+      "sha256": "048be6dbeceaa6f8a20368db1cbe3975abe3b8a383fee164266b97ec6ea6f40c"
+    },
+    {
+      "name": "native-review.json",
+      "size": 48562,
+      "sha256": "b6ebf4ba3fc51d8f816964893361a5310663a4b38fd98981539eb8fe91c21c00"
+    },
+    {
+      "name": "openssl-3.6.4-jms-derived-sources.zip",
+      "size": 55292184,
+      "sha256": "7e292724ce2a651bc3854b7c49c8c88081d129e99b52941a7e8241f234a3189f"
+    },
+    {
+      "name": "openssl-legacy-test-evidence.zip",
+      "size": 4071,
+      "sha256": "4433873acb69e122a9a071d05143217f86bfe0a02ae0bc33a66b97b8250b59d6"
+    },
+    {
+      "name": "openssl-retained-fixture-evidence.zip",
+      "size": 7663,
+      "sha256": "30bba421f626a1a96b603d55cce0066201ccf0fb913cdb8e0c0e3463c2b8018f"
+    },
+    {
+      "name": "rust-static-materials.zip",
+      "size": 35980932,
+      "sha256": "a1df3c67843052ccff2055af9923dc1c366bc9b79d8de633c06501cca4794c3c"
+    },
+    {
+      "name": "update.json",
+      "size": 670,
+      "sha256": "ee0772f2f52e1dda2a07773ecbdb8e7b03e6c71ff1354ada1d4a2d37c610a7ee"
+    },
+    {
+      "name": "whisper-fixed-source-materials.zip",
+      "size": 10067004,
+      "sha256": "9697ed4a346dd3d1146192b6ce32f82c875b5cde072eae8b6fa1ce68af926973"
+    },
+    {
+      "name": "windows-flutter-plugin-materials.zip",
+      "size": 59111368,
+      "sha256": "034ffffde06e2954d523d6796d1c1d52890ab868b38c50d05735770775e1746d"
+    },
+    {
+      "name": "windows-sdk-d3dcompiler-10.0.26100.7705-x64.zip",
+      "size": 2189716,
+      "sha256": "5187740618e999f51187ce31e4ec4c397073495135a1a06f7d482160a5ebdc7c"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "size": 12445,
+      "sha256": "03b0177c7136ce582db3bb91d4f43f3b11e603b4cc057802f344b6c9db1f3229"
+    }
+  ],
+  "validation": {
+    "launch": true,
+    "portableLaunch": true,
+    "settingsPreserved": true,
+    "isolatedKnownFoldersProfile": true,
+    "launches": 2,
+    "launchSecondsEach": 20,
+    "installerPayloadExtracted": true,
+    "installerPayloadMatchesPortable": true,
+    "flutterTextureSmoke": true,
+    "hardwareDecodeCopyBack": true,
+    "windowsTextureRenderer": "software-compatibility",
+    "maxTextureWidth": 1920,
+    "maxTextureHeight": 1080,
+    "cleanInstall": false,
+    "upgrade": false,
+    "gpuRendering": false,
+    "speakerOutput": false,
+    "fourKOutput": false,
+    "longPlayback": false,
+    "privacyScanComplete": true,
+    "titlebarMaximizeRestoreNativeState": true,
+    "titlebarMaximizeRestoreGlyphsObserved": true,
+    "releaseDebugArtifactsAbsent": true,
+    "retainedAotAndAllNativeBinariesUnchanged": true,
+    "flutterTextureSmokeReusedExactProductionInputs": true,
+    "installerExecutionPerformed": false,
+    "privacyItemsChecked": 333396
+  },
+  "packagingRevision": {
+    "removedMember": "data/flutter_assets/kernel_blob.bin",
+    "removedSha256": "fdb7bf145b3241c929be2b47dc2ec9ba6e4c46edcbba05e4323f5e2955e47300",
+    "retainedFileCount": 423,
+    "sourceFilesUnchanged": true,
+    "aotSha256": "f9b9e33118f7b52333dbd371f48a3ed8c6cb60c6a86074308531f8cf906c143a",
+    "packageRevision": "publication-2",
+    "packageBuildId": "JMS-0.11.1-jms.30-windows-d20f9393ca92-package-2",
+    "applicationRecompiled": false,
+    "applicationBuildId": "JMS-0.11.1-jms.30-windows-d20f9393ca92",
+    "sourceCommit": "d20f9393ca9267df56b1b6f525195a1bcc798b8c",
+    "originalManifestSha256": "a78e1ef9649510f3bc2c4e717ac8da4bc673a0a32b5c3382517d0de1fb0afe69",
+    "originalOutputs": [
+      {
+        "file": "JMS-Windows-0.11.1-jms.30-x64-portable.zip",
+        "size": 163548072,
+        "sha256": "01326ea2501a34b74b49cb26f1583c550665806a3557cab6906e52f7ed25a1f8"
+      },
+      {
+        "file": "JMS-Windows-0.11.1-jms.30-x64-setup.exe",
+        "size": 114740317,
+        "sha256": "e4915614b1f5ec87eb8354f5d86c4a00445cc0ae0d743a0c4847e6438ac08f5e"
+      }
+    ],
+    "nativeDllsUnchanged": 159,
+    "closedNativeDllsUnchanged": 140,
+    "officialDebugOnlyEvidence": {
+      "revision": "adc901062556672b4138e18a4dc62a4be8f4b3c2",
+      "sourceUrl": "https://raw.githubusercontent.com/flutter/flutter/adc901062556672b4138e18a4dc62a4be8f4b3c2/packages/flutter_tools/lib/src/build_system/targets/common.dart",
+      "member": "packages/flutter_tools/lib/src/build_system/targets/common.dart",
+      "memberSha256": "a4f5d31cce7390016ce2c996dadac08df93064b543212fefaf23913f2b686fa8",
+      "localMemberSha256": "c3511c8cf386d5cbc36823a27b0e71fb0d039035706f58bace30e75938273425",
+      "localDifference": "Windows checkout CRLF only; complete normalized bytes identical.",
+      "lineStart": 66,
+      "lineEnd": 85,
+      "scope": "Only debug build copies kernel and runtime snapshots; release uses its separately installed AOT library."
+    },
+    "originalWindowsCMakeSha256": "d3df361b35cbffdd05dda8d13eba610155a847be0cd1e359f994c3163ce9a2e1",
+    "unchangedInstallerRecipeSha256": "c2cba8e583f8b2c8cd43fbd5b9e143fffac4cf1e900a39345bf78a2ef7af9c0f",
+    "retainedFileManifestSha256": "0deeeee6fa02d221d8d9eb6cf83869ed4a3ea984337dc7e4ad336a2fd190d682",
+    "correctedOutputs": [
+      {
+        "file": "JMS-Windows-0.11.1-jms.30-x64-portable.zip",
+        "size": 129500933,
+        "sha256": "b31b74afae11693e1e7e3b9492a9d92738a338473922bb00cfd3bdfb1d3ef5a4"
+      },
+      {
+        "file": "JMS-Windows-0.11.1-jms.30-x64-setup.exe",
+        "size": 90651874,
+        "sha256": "2b1209a5ed828686b31d6b90fd67190d213e0d9475a33e2fe4274be60ddcf871"
+      }
+    ]
+  },
+  "releaseToolsCommit": "f62323ed996b50149106983e52125c1450c7cbd4"
+}
