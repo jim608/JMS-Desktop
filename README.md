@@ -34,7 +34,7 @@ JMS 讓你瀏覽自己的 Jellyfin 媒體庫、播放影片與選擇字幕，並
 
 ## 下載與更新
 
-目前公開測試版為 [JMS 0.11.1-jms.44+46](https://github.com/jim608/JMS-Desktop/releases/tag/v0.11.1-jms.44)，提供 Windows x64 [安裝程式](https://github.com/jim608/JMS-Desktop/releases/download/v0.11.1-jms.44/JMS-Windows-0.11.1-jms.44-x64-setup.exe)與 [Portable ZIP](https://github.com/jim608/JMS-Desktop/releases/download/v0.11.1-jms.44/JMS-Windows-0.11.1-jms.44-x64-portable.zip)。本版改善介面字體：繁體中文採用內建 Noto Sans TC，調整標題、內文與按鈕的字重及行距，提升閱讀舒適度。Discord 分享維持預設關閉，須另行同意。安裝程式及 App 均未簽章，使用前請閱讀版本說明中的驗證限制與更新注意事項。
+目前公開測試版為 [JMS 0.11.1-jms.45+47](https://github.com/jim608/JMS-Desktop/releases/tag/v0.11.1-jms.45)，提供 Windows x64 [安裝程式](https://github.com/jim608/JMS-Desktop/releases/download/v0.11.1-jms.45/JMS-Windows-0.11.1-jms.45-x64-setup.exe)與 [Portable ZIP](https://github.com/jim608/JMS-Desktop/releases/download/v0.11.1-jms.45/JMS-Windows-0.11.1-jms.45-x64-portable.zip)。本版新增「一起看」：朋友各自登入同一台 Jellyfin，在播放器建立房間或輸入 6 位房間碼加入，同步播放、暫停及跳轉。Discord 分享維持預設關閉，須另行同意。安裝程式及 App 均未簽章，使用前請閱讀版本說明中的驗證限制與更新注意事項。
 
 公開版本以 [Releases](https://github.com/jim608/JMS-Desktop/releases) 為準，各版提供 Windows x64 安裝程式、Portable ZIP、更新資訊、SHA256 校驗清單、完整 App 來源及原生依賴材料。實機驗證限制與未簽章狀態詳見各版本說明。
 
