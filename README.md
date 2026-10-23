@@ -4,24 +4,28 @@ JMS（Jim608 Media Server）是基於 [DonutWare/Fladder](https://github.com/Don
 
 ## 畫面與功能
 
-![JMS 功能總覽示意圖](https://raw.githubusercontent.com/jim608/JMS-Android/b7ed27260fa84e4ba0fc4e733ad7c89aafc0a6f3/docs/images/jms-overview.svg)
+JMS 讓你瀏覽自己的 Jellyfin 媒體庫、播放影片與選擇字幕，並透過原生介面使用自己的 Seerr 點片服務。
 
-JMS 讓你在桌面瀏覽 Jellyfin 媒體庫、播放影片與選擇字幕，並透過原生介面使用自己的 Seerr 點片服務。
+以下為 **JMS `.44` Web 完整 App 的實際執行截圖**，使用本機示範資料及原創封面，沒有重繪介面。桌面／手機寬度展示共用 UI，不是本倉庫原生平台或手機硬體的驗收證據。
 
 <table>
+  <tr><th>桌面首頁</th><th>手機寬度首頁</th></tr>
   <tr>
-    <th width="65%">桌面深色字型預覽</th>
-    <th width="35%">手機淺色字型預覽</th>
+    <td width="72%"><img src="https://raw.githubusercontent.com/jim608/JMS-Android/5a26ee3e80b05a6b49b13e3f34baf8c650b294fd/docs/images/jms-desktop-home.png" alt="JMS .44 Web 實際桌面首頁，本機示範資料" width="100%"></td>
+    <td width="28%"><img src="https://raw.githubusercontent.com/jim608/JMS-Android/5a26ee3e80b05a6b49b13e3f34baf8c650b294fd/docs/images/jms-mobile-home.png" alt="JMS .44 Web 實際手機寬度首頁，本機示範資料" width="100%"></td>
   </tr>
+  <tr><th>桌面影片詳細頁</th><th>手機寬度影片詳細頁</th></tr>
   <tr>
-    <td align="center"><img src="https://raw.githubusercontent.com/jim608/JMS-Android/b7ed27260fa84e4ba0fc4e733ad7c89aafc0a6f3/docs/images/desktop-dark.png" alt="JMS 共用介面的合成字型預覽：桌面深色，非完整 App 截圖" width="640"></td>
-    <td align="center"><img src="https://raw.githubusercontent.com/jim608/JMS-Android/b7ed27260fa84e4ba0fc4e733ad7c89aafc0a6f3/docs/images/mobile-light.png" alt="JMS 共用介面的合成字型預覽：手機淺色，非完整 App 截圖" width="280"></td>
+    <td><img src="https://raw.githubusercontent.com/jim608/JMS-Android/5a26ee3e80b05a6b49b13e3f34baf8c650b294fd/docs/images/jms-desktop-details.png" alt="JMS .44 Web 實際影片詳細頁" width="100%"></td>
+    <td><img src="https://raw.githubusercontent.com/jim608/JMS-Android/5a26ee3e80b05a6b49b13e3f34baf8c650b294fd/docs/images/jms-mobile-details.png" alt="JMS .44 Web 實際手機寬度影片詳細頁" width="100%"></td>
   </tr>
 </table>
 
-**圖片說明：以上兩張為合成字型預覽，展示共用介面的文字層級，並非完整 App 截圖。** 手機圖僅用於呈現共用字型效果；本倉庫僅提供 Windows x64 發行檔。
+**Discord 實際播放卡片**：使用者提供並同意公開作品名稱、封面及進度。此圖代表當次顯示結果，封面整合仍在驗證。
 
-![JMS 連線與使用流程示意圖](https://raw.githubusercontent.com/jim608/JMS-Android/b7ed27260fa84e4ba0fc4e733ad7c89aafc0a6f3/docs/images/jms-how-it-works.svg)
+![Discord 實際顯示 JMS 播放狀態](https://raw.githubusercontent.com/jim608/JMS-Android/5a26ee3e80b05a6b49b13e3f34baf8c650b294fd/docs/images/discord-presence.png)
+
+[圖片來源與標示](https://github.com/jim608/JMS-Android/blob/5a26ee3e80b05a6b49b13e3f34baf8c650b294fd/docs/images/README.md)
 
 - **瀏覽媒體**：連線自己的 Jellyfin 伺服器，瀏覽媒體庫、搜尋作品並切換帳號。
 - **播放與字幕**：選擇音軌與字幕；使用 MPV 播放時可用秒數輸入或滑軌微調字幕時間。雙軌及字幕格式能力依播放器與平台而定。
