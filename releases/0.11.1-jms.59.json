@@ -22,7 +22,9 @@
       "JMS-Windows-Native-Materials-118b1396a7ac-part03.zip",
       "JMS-Windows-Native-Materials-118b1396a7ac-part04.zip",
       "JMS-Windows-Native-Materials-118b1396a7ac.json",
-      "JMS-Windows-SMTC-Sources-5fd86cc4e5b4.zip"
+      "JMS-Windows-SMTC-Sources-5fd86cc4e5b4.zip",
+      "JMS-Windows-0.11.1-jms.59-binary-origin-materials.zip",
+      "JMS-Windows-0.11.1-jms.59-extra-rust-sources.zip"
     ],
     "binaries": {
       "avcodec-63.dll": "073ad5f013f15c0cc6e06ba3cd5e25dd308b9de940e9797d33e9535eb49f6dcb",
@@ -254,9 +256,19 @@
       "sha256": "109aa74b9e1ff77ee518ee596e59e852ad93513341e2c7c50d104086a1ae3c8a"
     },
     {
+      "name": "JMS-Windows-0.11.1-jms.59-binary-origin-materials.zip",
+      "size": 36007034,
+      "sha256": "bed065ea871b06313594dc19e5f67db63f2ae50fa0f5694d831617f80552cea2"
+    },
+    {
+      "name": "JMS-Windows-0.11.1-jms.59-extra-rust-sources.zip",
+      "size": 4660379,
+      "sha256": "2d3bca5bf6b12f5d36fe36de940d9b6643995167fad444c158dd859929bee641"
+    },
+    {
       "name": "SHA256SUMS.txt",
-      "size": 1291,
-      "sha256": "c21b94a0e61552b246be8952e4baea15a1469a3368f8e6ea1d97eb50ad8b836e"
+      "size": 1528,
+      "sha256": "7a81f0017d48edefa2c97394b260314156df235401076e48f18b5f7a835ce206"
     }
   ]
 }
