@@ -4,9 +4,9 @@ JMS（Jim608 Media Server）是基於 [DonutWare/Fladder](https://github.com/Don
 
 ## 下載與更新
 
-請從 [Windows Releases](https://github.com/jim608/JMS-Desktop/releases) 選擇已發布附件。2026-11-12 核對的現行公開版為 **[0.11.1-jms.58+67](https://github.com/jim608/JMS-Desktop/releases/tag/v0.11.1-jms.58%2B67)**，提供 Windows x64 Setup；本版沒有 Portable ZIP，其他版本的附件不可混用。
+請從 [Windows Releases](https://github.com/jim608/JMS-Desktop/releases) 選擇已發布附件。2026-11-12 核對的現行公開版為 **[0.11.1-jms.59+68 TEST](https://github.com/jim608/JMS-Desktop/releases/tag/v0.11.1-jms.59%2B68)**（Prerelease），提供 Windows x64 Setup；本版沒有 Portable ZIP，其他版本的附件不可混用。
 
-安裝程式維持未簽章，請閱讀同版說明並核對 SHA256。GitHub 的正式發布標記不代表實體手機、Tesla、真實 Jellyfin 遙控與所有 GPU／音訊情境已驗收；目前已知限制見版本說明。原始碼修補、草稿 PR 或 CI 成功不等於新安裝包已發布。
+安裝程式維持未簽章，請閱讀同版說明並核對 SHA256。本版 15 項資產已完成匿名下載校驗，隔離啟動與退出通過；實際安裝、播放及升級仍未驗收。GitHub 的正式發布標記不代表實體手機、Tesla、真實 Jellyfin 遙控與所有 GPU／音訊情境已驗收；目前已知限制見版本說明。原始碼修補、草稿 PR 或 CI 成功不等於新安裝包已發布。
 
 自動檢查更新不會自動安裝；安裝前仍須使用者確認。要接收 Prerelease，請開啟「接收測試版」。
 
