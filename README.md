@@ -1,6 +1,14 @@
 # JMS Windows 桌面版
 
-JMS（Jim608 Media Server）是基於 [DonutWare/Fladder](https://github.com/DonutWare/Fladder) 的 Jellyfin 用戶端。本倉庫專門提供 **Windows x64** 安裝程式、Portable ZIP 與 `update.json`。
+JMS（Jim608 Media Server）是基於 [DonutWare/Fladder](https://github.com/DonutWare/Fladder) 的 Jellyfin 用戶端。本倉庫專門提供 **Windows x64** 發布與更新資訊；可用的安裝程式或 Portable ZIP 以各版實際附件為準。
+
+## 下載與更新
+
+請從 [Windows Releases](https://github.com/jim608/JMS-Desktop/releases) 選擇已發布附件。2026-11-12 核對的現行公開版為 **[0.11.1-jms.58+67](https://github.com/jim608/JMS-Desktop/releases/tag/v0.11.1-jms.58%2B67)**，提供 Windows x64 Setup；本版沒有 Portable ZIP，其他版本的附件不可混用。
+
+安裝程式維持未簽章，請閱讀同版說明並核對 SHA256。GitHub 的正式發布標記不代表實體手機、Tesla、真實 Jellyfin 遙控與所有 GPU／音訊情境已驗收；目前已知限制見版本說明。原始碼修補、草稿 PR 或 CI 成功不等於新安裝包已發布。
+
+自動檢查更新不會自動安裝；安裝前仍須使用者確認。要接收 Prerelease，請開啟「接收測試版」。
 
 ## 畫面與功能
 
@@ -32,13 +40,18 @@ JMS 讓你瀏覽自己的 Jellyfin 媒體庫、播放影片與選擇字幕，並
 - **Seerr 點片**：使用自己設定的 Jellyseerr／Seerr 服務搜尋作品、查看申請紀錄及回報問題；登入與可用操作依服務權限決定。
 - **環境光與睡眠**：提供可調強度、擴散範圍的播放環境光與睡眠計時，依觀看習慣安排播放。
 
-## 下載與更新
+<details>
+<summary>歷史版本 .45 的下載與功能說明（非目前版本）</summary>
 
-目前公開測試版為 [JMS 0.11.1-jms.45+47](https://github.com/jim608/JMS-Desktop/releases/tag/v0.11.1-jms.45)，提供 Windows x64 [安裝程式](https://github.com/jim608/JMS-Desktop/releases/download/v0.11.1-jms.45/JMS-Windows-0.11.1-jms.45-x64-setup.exe)與 [Portable ZIP](https://github.com/jim608/JMS-Desktop/releases/download/v0.11.1-jms.45/JMS-Windows-0.11.1-jms.45-x64-portable.zip)。本版新增「一起看」：朋友各自登入同一台 Jellyfin，在播放器建立房間或輸入 6 位房間碼加入，同步播放、暫停及跳轉。Discord 分享維持預設關閉，須另行同意。安裝程式及 App 均未簽章，使用前請閱讀版本說明中的驗證限制與更新注意事項。
+### 歷史版本 .45
+
+當時的公開測試版為 [JMS 0.11.1-jms.45+47](https://github.com/jim608/JMS-Desktop/releases/tag/v0.11.1-jms.45)，提供 Windows x64 [安裝程式](https://github.com/jim608/JMS-Desktop/releases/download/v0.11.1-jms.45/JMS-Windows-0.11.1-jms.45-x64-setup.exe)與 [Portable ZIP](https://github.com/jim608/JMS-Desktop/releases/download/v0.11.1-jms.45/JMS-Windows-0.11.1-jms.45-x64-portable.zip)。本版新增「一起看」：朋友各自登入同一台 Jellyfin，在播放器建立房間或輸入 6 位房間碼加入，同步播放、暫停及跳轉。Discord 分享維持預設關閉，須另行同意。安裝程式及 App 均未簽章，使用前請閱讀版本說明中的驗證限制與更新注意事項。
 
 公開版本以 [Releases](https://github.com/jim608/JMS-Desktop/releases) 為準，各版提供 Windows x64 安裝程式、Portable ZIP、更新資訊、SHA256 校驗清單、完整 App 來源及原生依賴材料。實機驗證限制與未簽章狀態詳見各版本說明。
 
 自動檢查更新不會自動安裝；安裝前須由使用者確認，並核對平台、版本與 SHA256。穩定版不會接收測試版；未簽章版本可能顯示 Windows SmartScreen 提示，簽章狀態以各版本說明為準。
+
+</details>
 
 ## 共用來源與其他平台
 
